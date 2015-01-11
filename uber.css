@@ -32,9 +32,7 @@ Document Outline:
   - Team Table
 - SUBMISSION PAGE MODULES
   - Message Styles
-  - Credits Module
-  - Rating Module
-  - Watch Module
+  - Narrow Column Modules
 - STUDIO PROFILE STYLES
   - Structure
 - SUBMISSION PAGE STYLES
@@ -454,7 +452,11 @@ nav#BasicSubNavigator li a:hover {
 /* Common Module Styles */
 .Module div.Content {
     background: #1e1f21;
-    padding-top: 15px;
+    padding: 20px;
+}
+
+#ColumnGrid > .StaticColumn .Content {
+    padding: 18px 15px 15px;
 }
 
 div.Module > h3 {
@@ -639,13 +641,40 @@ body article blockquote p:last-child {
 }
 
 
-/* Credits Module */
+/* Narrow Column Modules */
+.StaticColumn .Module dl {
+    margin: 5px 0 0;
+}
+
+.StaticColumn .Module dl dd {
+    margin-left: 0;
+}
+
+.StaticColumn .Module dl dd:last-child {
+    margin-bottom: 5px;
+}
+
+.Module p.Description {
+    background: #2c2d32;
+    color: #999;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
 #AuthorsAndRolesModule .AuthorsAndRoles img.Upic {
     max-height:20px !important;
 }
 
+#StudioModule img {
+    margin-bottom: 0;
+}
 
-/* Rating Module */
+#CategoryModule div.Content,
+#GameModule div.Content {
+    text-align:center;
+}
+
 #RatingModule #SkillLevel {
     margin-bottom: 5px;
 }
@@ -664,14 +693,12 @@ body article blockquote p:last-child {
     font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 }
 
+#ShareToolsModule select {
+    width: 100%;
+}
 
-/* Watch Module */
-.Module p.Description {
-    background: #2c2d32;
-    color: #999;
-    font-size: 12px;
-    padding: 10px;
-    text-align: center;
+#ShareToolsModule textarea {
+    height: 90px;
 }
 
 
