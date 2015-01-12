@@ -284,7 +284,6 @@ div#GuestLinks {
     float: left;
     font-family: Verdana, Geneva, sans-serif;
     height: 30px;
-    margin-right: 10px;
     transition: width 0.5s;
     width: 180px;
 }
@@ -299,20 +298,9 @@ div#GuestLinks {
 }
 
 #SiteSearch fieldset img {
-    background: #2c2d32 url(https://www.dropbox.com/s/c9n1fny5lnpx6mt/search.png?raw=1) center center no-repeat;
-    border-bottom: none;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.35);
-    content: url(https://www.dropbox.com/s/0w0tnvbvbcslqhh/transparent.png?raw=1);
-    display: block;
-    height: 30px;
-    opacity: 1;
-    position: static;
-    width: 56px;
-}
-
-#SiteSearch fieldset img:hover {
-    background-color: #3b3c43;
+   position: absolute;
+   top: 18px;
+   right: 12px;
 }
 
 
