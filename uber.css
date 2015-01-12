@@ -298,24 +298,21 @@ div#GuestLinks {
     width: 250px;
 }
 
-#SiteSearch fieldset button {
+#SiteSearch fieldset img {
     background: #2c2d32 url(https://www.dropbox.com/s/c9n1fny5lnpx6mt/search.png?raw=1) center center no-repeat;
     border-bottom: none;
     border-radius: 3px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.35);
+    content: url(https://www.dropbox.com/s/0w0tnvbvbcslqhh/transparent.png?raw=1);
     display: block;
-    float: left;
     height: 30px;
-    text-indent: -9999px;
+    opacity: 1;
+    position: static;
     width: 56px;
 }
 
-#SiteSearch fieldset button:hover {
+#SiteSearch fieldset img:hover {
   background-color: #3b3c43;
-}
-
-::-webkit-input-placeholder {
-   color: rgba(0,0,0,0);
 }
 
 :-moz-placeholder { /* Firefox 18- */
