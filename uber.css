@@ -582,16 +582,16 @@ div#MasterLog {
 }
 
 #ItemProfileModule div.Download a {
-    background: #698c43;
+    background: #3f6f90;
     border-radius: 3px;
     border: none;
     color: #fff;
     padding: 0;
-    text-shadow: 0 1px 0 #345221;
+    text-shadow: 0 1px 0 #294869;
 }
 #ItemProfileModule div.Download a:hover {
-    background: #769a4e;
-    text-shadow: 0 1px 0 #537538;
+    background: #4884ad;
+    text-shadow: 0 1px 0 #2f5990;
 }
 
 #ItemProfileModule div.Download a {
