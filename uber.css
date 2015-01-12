@@ -518,6 +518,22 @@ div#MasterLog {
     color: #999;
 }
 
+#PostsListModule .PostHeader div.PostLabels {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#PostsListModule .LabelState.IsModerator {
+    border-width: 2px;
+    font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 6px 0 0;
+    padding: 4px 6px;
+    text-transform: uppercase;
+}
+
 
 
 /* STUDIO PROFILE MODULES
