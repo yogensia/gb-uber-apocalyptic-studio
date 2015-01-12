@@ -591,14 +591,14 @@ div#MasterLog {
 
 
 /* Message Styles */
-body article p {
+#PostsListModule article p {
     font-size: 14px;
     line-height: 18px;
     margin: 0 0 18px;
     padding: 0;
 }
 
-body article blockquote {
+#PostsListModule article blockquote {
     background: rgba(0,0,0,0.15);
     border-left: 2px solid #a33c1a;
     font-style: normal;
@@ -607,21 +607,21 @@ body article blockquote {
     padding: 15px;
 }
 
-body article blockquote p:first-child {
+#PostsListModule article blockquote p:first-child {
     margin-bottom: 8px;
 }
 
-body article blockquote p:first-child strong:first-child {
+#PostsListModule article blockquote p:first-child strong:first-child {
     color: #fff;
     font-size: 14px;
     font-weight: normal;
 }
 
-body article blockquote p:first-child strong:first-child a {
+#PostsListModule article blockquote p:first-child strong:first-child a {
     font-weight: bold;
 }
 
-body article blockquote p:last-child {
+#PostsListModule article blockquote p:last-child {
     margin-bottom: 0;
 }
 
