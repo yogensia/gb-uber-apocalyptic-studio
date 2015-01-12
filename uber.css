@@ -454,6 +454,14 @@ div.Module > h3 a:hover {
     color: #ebc17b;
 }
 
+.Module .Content ul {
+    padding: 0;
+}
+
+div.GenericPreviewListModule li:last-child {
+    border-bottom: none;
+}
+
 /* Messages/Comments Module */
 div#PostsListModule div.Content {
     padding: 0;
@@ -526,6 +534,26 @@ div#MasterLog {
 
 /* STUDIO PROFILE MODULES
 ------------------------------------------------------------- */
+
+/* Games Developed */
+#DevelopmentModule .GamesDeveloped li {
+    margin: 5px 14px;
+}
+
+
+/* Ranks */
+#RankModule div.Content {
+    padding: 20px 0 0;
+}
+
+#RankModule div.Content table {
+     margin-bottom: 0;
+}
+
+#RankModule div.Content table tr:last-child {
+    border: none;
+}
+
 
 /* Team Table */
 #TeamMembersListModule .Content {
