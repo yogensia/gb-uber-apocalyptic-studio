@@ -84,7 +84,7 @@ img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 
 /* Main Structure */
 body {
-    background: #161616 url(https://www.dropbox.com/s/3b08s2sacl70eyj/bg-apoc-uber.jpg?raw=1) no-repeat center -6px;
+    background: #161616 url(http://files.gamebanana.com/bitpit/apobanner.jpg) no-repeat center -6px;
 }
 
 #Wrapper #MainContent {
@@ -127,8 +127,6 @@ textarea:focus {
     outline: none;
 }
 
-
-
 /* BRANDING
 ------------------------------------------------------------- */
 
@@ -149,7 +147,7 @@ textarea:focus {
 }
 
 #NetworkLinks #GamebananaTab a {
-    background: url(https://www.dropbox.com/s/ek510219zb6xibq/logo-short.png?raw=1) center center no-repeat;
+    background: url(http://files.gamebanana.com/bitpit/apogblogo.png) center center no-repeat;
     display: block;
     height: 35px;
     width: 60px;
@@ -254,16 +252,16 @@ div#GuestLinks {
 }
 
 #GuestLinks li:first-child a {
-    background: url(https://www.dropbox.com/s/r24a1fdcw5abe4i/login.png?raw=1) center center no-repeat;
+    background: url(http://files.gamebanana.com/bitpit/apologin.png) center center no-repeat;
     border: none;
     display: block;
     height: 24px;
     opacity: 0.8;
     width: 24px;
-    -webkit-transition: opacity 0.1s ease-in-out;
-       -moz-transition: opacity 0.1s ease-in-out;
-         -o-transition: opacity 0.1s ease-in-out;
-            transition: opacity 0.1s ease-in-out;
+	-webkit-transition: opacity 0.1s ease-in-out;
+	-moz-transition: opacity 0.1s ease-in-out;
+	-o-transition: opacity 0.1s ease-in-out;
+	transition: opacity 0.1s ease-in-out;
 }
 #GuestLinks li:first-child a:hover,
 #GuestLinks li:first-child a:active {
@@ -301,8 +299,6 @@ div#GuestLinks {
    top: 18px;
    right: 12px;
 }
-
-
 
 /* CONTENT
 ------------------------------------------------------------- */
@@ -343,9 +339,9 @@ div#TitleBreadcrumb {
     position: relative;
     top: 65px;
     width: 740px;
-    -webkit-box-shadow: 0px 2px 6px #111;
-       -moz-box-shadow: 0px 2px 6px #111;
-            box-shadow: 0px 2px 6px #111;
+	-webkit-box-shadow: 0px 2px 6px #111;
+	-moz-box-shadow: 0px 2px 6px #111;
+	box-shadow: 0px 2px 6px #111;
 }
 
 #Studio_Profile div#TitleBreadcrumb {
@@ -366,10 +362,10 @@ nav#BasicSubNavigator {
     top: 47px;
     background: none !important;
     padding: 0;
-    -webkit-transition: all 0.1s ease-in-out;
-       -moz-transition: all 0.1s ease-in-out;
-         -o-transition: all 0.1s ease-in-out;
-            transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 
 nav#BasicSubNavigator:hover {
@@ -384,10 +380,10 @@ nav#BasicSubNavigator li {
 
 nav#BasicSubNavigator li a {
     background: none;
-    -webkit-transition: all 0.1s ease-in-out;
-       -moz-transition: all 0.1s ease-in-out;
-         -o-transition: all 0.1s ease-in-out;
-            transition: all 0.1s ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 
 nav#BasicSubNavigator li a:hover {
@@ -441,9 +437,9 @@ div.Module > h3 {
     padding: 7px;
     position: relative;
     text-shadow: 0 1px 0 rgba(0,0,0,0.3);
-    -webkit-box-shadow: 0px 2px 6px #111;
-       -moz-box-shadow: 0px 2px 6px #111;
-            box-shadow: 0px 2px 6px #111;
+	-webkit-box-shadow: 0px 2px 6px #111;
+	-moz-box-shadow: 0px 2px 6px #111;
+	box-shadow: 0px 2px 6px #111;
 }
 
 div.Module > h3 a {
@@ -539,7 +535,6 @@ div#MasterLog {
     margin: 5px 14px;
 }
 
-
 /* Ranks */
 #RankModule div.Content {
     padding: 20px 0 0;
@@ -553,7 +548,6 @@ div#MasterLog {
     border: none;
 }
 
-
 /* Team Table */
 #TeamMembersListModule .Content {
     height: 455px;
@@ -563,8 +557,6 @@ div#MasterLog {
 #ProjectPreviewListModule .Content br {
     display: none;
 }
-
-
 
 /* SUBMISSION PAGE MODULES
 ------------------------------------------------------------- */
@@ -603,42 +595,44 @@ div#MasterLog {
     text-shadow: 0 1px 0 #2f5990;
 }*/
 
-#ItemProfileModule div.Download a {
-  background: #289b80;
-  color: #ccc !important;
-  border: none;
-  padding: 0;
-  text-shadow: 0 1px 0 #144d3f;
-  
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  
-  -moz-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
-  -webkit-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
-  box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
-  
-  -webkit-transition:all 0.15s ease-in;  
-  -moz-transition:all 0.15s ease-in;  
-  -o-transition:all 0.15s ease-in;  
-  transition:all 0.15s ease-in; 
+#ItemProfileModule div.Download a, #OfficialDirectDownload a {
+	background: #289b80;
+	color: #e0e0e0 !important;
+	border: none;
+	padding: 0;
+	text-shadow: 0 1px 0 #144d3f;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+
+	-moz-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
+	-webkit-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
+	box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
+
+	-webkit-transition:all 0.14s ease-in-out;  
+	-moz-transition:all 0.14s ease-in-out;  
+	-o-transition:all 0.14s ease-in-out;  
+	transition:all 0.14s ease-in-out; 
 }
 
-#ItemProfileModule div.Download a:hover {
-  background: #32be9e;
-  text-shadow: 0 1px 0 #1e735f;
+#ItemProfileModule div.Download a:hover, #OfficialDirectDownload a:hover {
+	color: #fff !important;
+	background: #2db496;
+	text-shadow: 0 1px 0 #145546;
 }
 
-#ItemProfileModule div.Download a:active {
-  background: #32be9e;
-  text-shadow: 0 1px 0 #1e735f;
-  -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
-  -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
-  box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
+#ItemProfileModule div.Download a:active, #OfficialDirectDownload a:active {
+	color: #fff !important;
+	background: #2db496;
+	text-shadow: 0 1px 0 #145546;
+	-moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
+	-webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
+	box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
 }
 
 #ItemProfileModule div.Download a {
@@ -646,11 +640,11 @@ div#MasterLog {
     font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 }
 
-#ItemProfileModule div.Download a {
+#ItemProfileModule div.Download a, #OfficialDirectDownload a {
     box-sizing: border-box;
     display: block;
-    font-size: 26px;
-    padding: 15px 10px;
+    font-size: 30px;
+    padding: 12px;
     width: 100%;
 }
 
@@ -908,16 +902,51 @@ div#MasterLog {
 button,
 .ButtonLike {
     background: #2c2d32;
+	color: #e0e0e0 !important;
     border: none;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid #111;
+	text-shadow: 0 1px 0 rgba(0,0,0,.45);
     box-shadow: none;
+	outline: none;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+
+	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
+	
+	-webkit-transition:all 0.14s ease-in-out;  
+	-moz-transition:all 0.14s ease-in-out;  
+	-o-transition:all 0.14s ease-in-out;  
+	transition:all 0.14s ease-in-out; 
 }
 
 button:hover,
 .ButtonLike:hover {
+	color: #fff !important;
+    background: #45464b;
+	border: none;
+	border-bottom: 1px solid #111;
+	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,.6);
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.6);
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.6);
+}
+
+button:active,
+.ButtonLike:active {
+	color: #fff !important;
     background: #45464b;
     border: none;
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+	border-bottom: 1px solid #111;
+	-moz-box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
+	-webkit-box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
+	box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
 }
 
 /* Modals */
