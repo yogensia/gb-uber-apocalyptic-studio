@@ -84,7 +84,7 @@ img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 
 /* Main Structure */
 body {
-    background: #161616 url(http://rafaeldejongh.tk/data/GB/ApocalypticStudio/banner.jpg) no-repeat center -6px;
+    background: #161616 url(http://files.gamebanana.com/bitpit/apobanner.jpg) no-repeat center -6px;
 }
 
 #Wrapper #MainContent {
@@ -147,7 +147,7 @@ textarea:focus {
 }
 
 #NetworkLinks #GamebananaTab a {
-    background: url(http://rafaeldejongh.tk/data/GB/ApocalypticStudio/gblogo.png) center center no-repeat;
+    background: url(http://files.gamebanana.com/bitpit/apogblogo.png) center center no-repeat;
     display: block;
     height: 35px;
     width: 60px;
@@ -252,7 +252,7 @@ div#GuestLinks {
 }
 
 #GuestLinks li:first-child a {
-    background: url(http://rafaeldejongh.tk/data/GB/ApocalypticStudio/login.png) center center no-repeat;
+    background: url(http://files.gamebanana.com/bitpit/apologin.png) center center no-repeat;
     border: none;
     display: block;
     height: 24px;
@@ -412,8 +412,6 @@ nav#BasicSubNavigator li a:hover {
     top: 168px;
 }
 
-
-
 /* COMMON MODULES
 ------------------------------------------------------------- */
 
@@ -524,8 +522,6 @@ div#MasterLog {
     padding: 4px 6px;
     text-transform: uppercase;
 }
-
-
 
 /* STUDIO PROFILE MODULES
 ------------------------------------------------------------- */
@@ -662,7 +658,6 @@ div#MasterLog {
     padding: 10px;
 }
 
-
 /* Message Styles */
 #PostsListModule article p {
     font-size: 14px;
@@ -697,7 +692,6 @@ div#MasterLog {
 #PostsListModule article blockquote p:last-child {
     margin-bottom: 0;
 }
-
 
 /* Narrow Column Modules */
 .StaticColumn .Module dl {
@@ -759,8 +753,6 @@ div#MasterLog {
     height: 90px;
 }
 
-
-
 /* STUDIO PROFILE STYLES
 ------------------------------------------------------------- */
 
@@ -779,8 +771,6 @@ div#MasterLog {
 #Studio_Profile #TitleBreadcrumb {
     display: none;
 }
-
-
 
 /* SUBMISSION PAGE STYLES
 ------------------------------------------------------------- */
