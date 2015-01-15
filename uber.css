@@ -84,7 +84,7 @@ img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 
 /* Main Structure */
 body {
-    background: #161616 url(http://files.gamebanana.com/bitpit/apobanner.jpg) no-repeat center -6px;
+    background: #161616 url(http://rafaeldejongh.tk/data/GB/ApocalypticStudio/banner.jpg) no-repeat center -6px;
 }
 
 #Wrapper #MainContent {
@@ -147,7 +147,7 @@ textarea:focus {
 }
 
 #NetworkLinks #GamebananaTab a {
-    background: url(http://files.gamebanana.com/bitpit/apogblogo.png) center center no-repeat;
+    background: url(http://rafaeldejongh.tk/data/GB/ApocalypticStudio/gblogo.png) center center no-repeat;
     display: block;
     height: 35px;
     width: 60px;
@@ -252,7 +252,7 @@ div#GuestLinks {
 }
 
 #GuestLinks li:first-child a {
-    background: url(http://files.gamebanana.com/bitpit/apologin.png) center center no-repeat;
+    background: url(http://rafaeldejongh.tk/data/GB/ApocalypticStudio/login.png) center center no-repeat;
     border: none;
     display: block;
     height: 24px;
@@ -596,11 +596,11 @@ div#MasterLog {
 }*/
 
 #ItemProfileModule div.Download a, #OfficialDirectDownload a {
-	background: #289b80;
+	background: #00A67F;
 	color: #e0e0e0 !important;
 	border: none;
 	padding: 0;
-	text-shadow: 0 1px 0 #144d3f;
+	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -622,14 +622,14 @@ div#MasterLog {
 
 #ItemProfileModule div.Download a:hover, #OfficialDirectDownload a:hover {
 	color: #fff !important;
-	background: #2db496;
-	text-shadow: 0 1px 0 #145546;
+	background: #00BE91;
+	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 }
 
 #ItemProfileModule div.Download a:active, #OfficialDirectDownload a:active {
 	color: #fff !important;
-	background: #2db496;
-	text-shadow: 0 1px 0 #145546;
+	background: #00BE91;
+	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 	-moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
 	box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
@@ -1034,27 +1034,27 @@ button:active,
 /* Track */
 ::-webkit-scrollbar-track {
     background-color: #121212;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
-       -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
-            box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgba(40,40,40,0.7);
     border-radius: 8px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-       -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-            box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 }
 
 /* Handle Hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(40,40,40,1);
     border-radius: 8px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-       -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-            box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 }
 
 /* Scrollbar Horizontal */
