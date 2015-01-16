@@ -72,7 +72,7 @@ div#SiteSkinWrapper,
 #FooterWrapper,
 #ImportantLinks,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
-	display: none!important;
+	display: none !important;
 }
 
 /* GENERAL
@@ -115,6 +115,7 @@ textarea,
 	height: 145px;
 	resize: vertical;
 	width: 100% !important;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 textarea:hover,
@@ -270,14 +271,18 @@ div#GuestLinks {
 #SiteSearch fieldset input {
 	border-radius: 2px;
 	border: 1px solid #595959;
-	box-sizing: border-box;
 	color: #bbb;
 	display: block;
 	float: left;
 	font-family: Verdana, Geneva, sans-serif;
 	height: 30px;
-	transition: width 0.5s;
 	width: 180px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: width 0.5s;
+	-moz-transition: width 0.5s;
+	-o-transition: width 0.5s;
+	transition: width 0.5s;
 }
 
 #SiteSearch fieldset input:hover {
@@ -300,8 +305,7 @@ div#GuestLinks {
 
 /* Page Title & Breadcrumbs */
 #PageTitle {
-	background-color: #a33c1a;
-	background-color: #a33c1a;
+	background: #a33c1a;
 	display: inline-block;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 	font-size: 32px;
@@ -326,7 +330,8 @@ div#GuestLinks {
 }
 
 div#TitleBreadcrumb {
-	background-color: #a33c1a;
+	background: #a33c1a;
+	box-shadow: 0px 2px 6px #111;
 	display: inline-block;
 	margin-bottom: 0;
 	outline: 5px solid #a33c1a;
@@ -334,9 +339,6 @@ div#TitleBreadcrumb {
 	position: relative;
 	top: 65px;
 	width: 740px;
-	-webkit-box-shadow: 0px 2px 6px #111;
-	-moz-box-shadow: 0px 2px 6px #111;
-	box-shadow: 0px 2px 6px #111;
 }
 
 #Studio_Profile div#TitleBreadcrumb {
@@ -349,14 +351,14 @@ div#TitleBreadcrumb a:hover {
 
 /* Submission Navigation Buttons */
 nav#BasicSubNavigator {
+	background: none !important;
 	display: inline-block;
 	margin: 0;
 	opacity: 0.5;
+	padding: 0;
 	position: absolute;
 	right: 259px;
 	top: 47px;
-	background: none !important;
-	padding: 0;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
@@ -414,7 +416,8 @@ nav#BasicSubNavigator li a:hover {
 }
 
 div.Module > h3 {
-	background-color: #a33c1a;
+	background: #a33c1a;
+	box-shadow: 0px 2px 6px #111;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
@@ -423,9 +426,6 @@ div.Module > h3 {
 	padding: 7px;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
-	-webkit-box-shadow: 0px 2px 6px #111;
-	-moz-box-shadow: 0px 2px 6px #111;
-	box-shadow: 0px 2px 6px #111;
 }
 
 div.Module > h3 a {
@@ -479,7 +479,7 @@ div#PostsListModule div.Content {
 }
 
 div#MasterLog {
-	background-color: rgba(30,31,33, 0.9);
+	background: rgba(30,31,33, 0.9);
 	position: absolute;
 	top: -227px;
 	right: 400px;
@@ -489,10 +489,10 @@ div#MasterLog {
 }
 
 .Module ul.LogMessages {
-	text-align: center;
-	padding: 10px;
 	background: #2c2d32;
 	color: #999;
+	padding: 10px;
+	text-align: center;
 }
 
 #PostsListModule .PostHeader div.PostLabels {
@@ -566,8 +566,11 @@ div#MasterLog {
 
 #ItemProfileModule div.Download a,
 #OfficialDirectDownload a {
-	background: #00A67F;
+	background: #00a67f;
+	background-clip: padding-box;
 	border: none;
+	border-radius: 6px;
+	box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
 	color: #e0e0e0 !important;
 	display: block;
 	font-size: 30px;
@@ -576,23 +579,8 @@ div#MasterLog {
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 	width: 100%;
-
 	-mox-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-
-	-moz-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
-	-webkit-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
-	box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
-
 	-webkit-transition: background-color 0.14s ease-in-out;
 	-moz-transition: background-color 0.14s ease-in-out;
 	-o-transition: background-color 0.14s ease-in-out;
@@ -601,22 +589,20 @@ div#MasterLog {
 
 #ItemProfileModule div.Download a:hover,
 #OfficialDirectDownload a:hover {
-	background: #00BE91;
+	background: #00be91;
 	color: #fff !important;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 }
 
 #ItemProfileModule div.Download a:active,
 #OfficialDirectDownload a:active {
-	background: #00BE91;
+	background: #00be91;
+	box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
 	color: #fff !important;
 	top: 3px;
 	padding-bottom: 12px;
 	margin-bottom: 3px;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
-	-moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
-	-webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
-	box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
 }
 
 #ItemProfileModule div.Download a {
@@ -758,11 +744,11 @@ div#MasterLog {
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
 	margin-top: 70px;
-	width: 740px!important;
+	width: 740px !important;
 }
 
 #ColumnGrid > .StaticColumn {
-	width: 250px!important;
+	width: 250px !important;
 	padding-top: 5px !important;
 }
 
@@ -846,7 +832,7 @@ div#MasterLog {
 #Studio_Submissions_Gui #ColumnGrid > .FluidColumn,
 #Studio_Submissions_HelpWanted #ColumnGrid > .FluidColumn {
 	margin-top: 0;
-	width: 100%!important;
+	width: 100% !important;
 }
 
 /* Update Info Module */
@@ -867,6 +853,7 @@ div#MasterLog {
 	margin: 0 20px;
 	outline: 0;
 	width: 700px;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -877,25 +864,15 @@ div#MasterLog {
 button,
 .ButtonLike {
 	background: #2c2d32;
+	background-clip: padding-box;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
 	color: #e0e0e0 !important;
 	border: none;
 	border-bottom: 1px solid #111;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 	box-shadow: none;
 	outline: none;
-
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-
-	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
-	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
-	box-shadow: inset 0 -1px 0 rgba(0,0,0,.4);
-
 	-webkit-transition:all 0.14s ease-in-out;
 	-moz-transition:all 0.14s ease-in-out;
 	-o-transition:all 0.14s ease-in-out;
@@ -907,21 +884,17 @@ button:hover,
 	background: #45464b;
 	border: none;
 	border-bottom: 1px solid #111;
-	color: #fff !important;
-	-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,.6);
-	-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.6);
 	box-shadow: inset 0 -1px 0 rgba(0,0,0,.6);
+	color: #fff !important;
 }
 
 button:active,
 .ButtonLike:active {
 	background: #45464b;
+	box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
 	border: none;
 	border-bottom: 1px solid #111;
 	color: #fff !important;
-	-moz-box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
-	-webkit-box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
-	box-shadow: inset 0 0px 0 rgba(0,0,0,.6);
 }
 
 /* Modals */
@@ -1007,8 +980,6 @@ button:active,
 /* Track */
 ::-webkit-scrollbar-track {
 	background-color: #121212;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
-	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
 	box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
 }
 
@@ -1016,8 +987,6 @@ button:active,
 ::-webkit-scrollbar-thumb {
 	background: rgba(40,40,40,0.7);
 	border-radius: 8px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 	box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 }
 
@@ -1025,8 +994,6 @@ button:active,
 ::-webkit-scrollbar-thumb:hover {
 	background: rgba(40,40,40,1);
 	border-radius: 8px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
-	-moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 	box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
 }
 
