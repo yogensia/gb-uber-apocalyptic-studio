@@ -400,13 +400,6 @@ nav#BasicSubNavigator li a:hover {
 	background: none !important;
 }
 
-/* GBX */
-#GbxRibbon {
-	position: absolute;
-	right: 285px;
-	top: 168px;
-}
-
 /* COMMON MODULES
 ------------------------------------------------------------- */
 
@@ -763,7 +756,14 @@ div#MasterLog {
 
 #ColumnGrid > .StaticColumn {
 	width: 250px!important;
-	padding-top: 0 !important;
+	padding-top: 5px !important;
+}
+
+/* GBX */
+#GbxRibbon {
+	position: absolute;
+	right: 285px;
+	top: 163px;
 }
 
 /* Structure (thanks tom) */
