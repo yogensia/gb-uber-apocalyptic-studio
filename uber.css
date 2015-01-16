@@ -564,12 +564,22 @@ div#MasterLog {
 	position:relative;
 }
 
-#ItemProfileModule div.Download a, #OfficialDirectDownload a {
+#ItemProfileModule div.Download a,
+#OfficialDirectDownload a {
 	background: #00A67F;
 	border: none;
 	color: #e0e0e0 !important;
+	display: block;
+	font-size: 30px;
 	padding: 0;
+	padding: 10px 10px 15px;
+	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
+	width: 100%;
+
+	-mox-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -583,21 +593,26 @@ div#MasterLog {
 	-webkit-box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
 	box-shadow: inset 0 -5px 0 rgba(0,0,0,.45);
 
-	-webkit-transition:all 0.14s ease-in-out;
-	-moz-transition:all 0.14s ease-in-out;
-	-o-transition:all 0.14s ease-in-out;
-	transition:all 0.14s ease-in-out;
+	-webkit-transition: background-color 0.14s ease-in-out;
+	-moz-transition: background-color 0.14s ease-in-out;
+	-o-transition: background-color 0.14s ease-in-out;
+	transition: background-color 0.14s ease-in-out;
 }
 
-#ItemProfileModule div.Download a:hover, #OfficialDirectDownload a:hover {
+#ItemProfileModule div.Download a:hover,
+#OfficialDirectDownload a:hover {
 	background: #00BE91;
 	color: #fff !important;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 }
 
-#ItemProfileModule div.Download a:active, #OfficialDirectDownload a:active {
+#ItemProfileModule div.Download a:active,
+#OfficialDirectDownload a:active {
 	background: #00BE91;
 	color: #fff !important;
+	top: 3px;
+	padding-bottom: 12px;
+	margin-bottom: 3px;
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 	-moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.45);
@@ -607,14 +622,6 @@ div#MasterLog {
 #ItemProfileModule div.Download a {
 	color: #fff;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
-}
-
-#ItemProfileModule div.Download a, #OfficialDirectDownload a {
-	box-sizing: border-box;
-	display: block;
-	font-size: 30px;
-	padding: 12px;
-	width: 100%;
 }
 
 #ItemProfileModule div.Download small {
