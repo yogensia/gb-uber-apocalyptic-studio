@@ -415,7 +415,8 @@ nav#BasicSubNavigator li a:hover {
 	padding: 18px 15px 15px;
 }
 
-div.Module > h3 {
+div.Module > h3,
+#ContentMessages h3 {
 	background: #a33c1a;
 	box-shadow: 0px 2px 6px #111;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
@@ -425,7 +426,9 @@ div.Module > h3 {
 	outline: 3px solid #a33c1a;
 	padding: 7px;
 	position: relative;
+	text-align: center;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	text-transform: uppercase;
 }
 
 div.Module > h3 a {
@@ -444,6 +447,104 @@ div.GenericPreviewListModule li:last-child {
 }
 
 /* Messages/Comments Module */
+
+.FluidColumn #GuestNoticeModule:before {
+	content:"Comments";
+	text-align: center;
+	display:block;
+	background-color: #a33c1a;
+	background: #a33c1a;
+	box-shadow: 0px 2px 6px #111;
+	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	outline: 3px solid #a33c1a;
+	padding: 7px;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	text-transform: uppercase;
+}
+
+.FluidColumn #GuestNoticeModule {
+	border-bottom: none;
+	text-align: center;
+}
+
+.FluidColumn #GuestNoticeModule h2 {
+	border-bottom: none;
+	font-size: 18px;
+	text-align: center;
+}
+
+.FluidColumn #GuestNoticeModule p {
+	display: none;
+}
+
+.FluidColumn #GuestNoticeModule ul {
+	display: none;
+}
+
+.FluidColumn #PostAddFormRequesterModule {
+	position:relative;
+	z-index: 999;
+}
+
+.FluidColumn #PostAddFormRequesterModule:before {
+	content:"Comments";
+	text-align: center;
+	display:block;
+	background-color: #a33c1a;
+	background: #a33c1a;
+	box-shadow: 0px 2px 6px #111;
+	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	outline: 3px solid #a33c1a;
+	padding: 7px;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	text-transform: uppercase;
+}
+
+.FluidColumn #PostAddFormRequesterModule:last-child {
+	display:none;
+}
+
+.FluidColumn #PostsListModule {
+	margin-top: -25px;
+}
+
+.FluidColumn #PostsListModule h3,
+#PostsListModule h3 {
+	display: none;
+}
+
+#ContentExtras #PostAddFormRequesterModule {
+	margin: 0;
+}
+
+#ContentExtras #PostAddFormRequesterModule .Content {
+	padding-bottom: 8px;
+}
+
+#PostAddFormRequesterModule .LogMessages:first-child {
+	background: #1e1f21;
+	padding: 12px 0 0;
+}
+
+#PostAddFormRequesterModule .LogMessages li {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.PageNavigation:first-child {
+	display: none;
+}
+
 div#PostsListModule div.Content {
 	padding: 0;
 }
@@ -532,14 +633,21 @@ div#MasterLog {
 	border: none;
 }
 
-/* Team Table */
-#TeamMembersListModule .Content {
-	height: 455px;
-}
-
 #ForumPreviewListModule .Content br,
 #ProjectPreviewListModule .Content br {
 	display: none;
+}
+
+/* Forums and Projects */
+div.ForumPreviewListModule a.Name,
+div.ProjectPreviewListModule a.Name {
+	font: 14px 'trebuchet ms','comic sans','cursive' !important;
+	color: #fceeb7 !important;
+	text-shadow: none !important;
+}
+div.ForumPreviewListModule a.Name:hover,
+div.ProjectPreviewListModule a.Name:hover {
+	color: #e76526 !important;
 }
 
 /* SUBMISSION PAGE MODULES
@@ -751,19 +859,101 @@ div#MasterLog {
 ------------------------------------------------------------- */
 
 /* Structure */
-#Studio_Profile #ColumnGrid > .FluidColumn {
-	margin-top: 0;
-	width: 500px !important;
-}
-
-#Studio_Profile #ColumnGrid > .ContentColumn:last-child {
-	width: 500px !important;
-	padding-top: 0 !important;
-}
-
 #Studio_Profile #PageTitle,
 #Studio_Profile #TitleBreadcrumb {
 	display: none;
+}
+
+#ContentSubmissions,
+#ContentExtras {
+	display: block;
+}
+
+#ContentSubmissions {
+	padding: 0 0 20px;
+}
+
+#ContentExtras {
+	padding:0;
+	width:1000px;
+}
+
+.OneColumn {
+	width:100%;
+}
+
+.OneHalfColumn {
+	float: left;
+	width: 490px;
+	margin-right: 19px;
+}
+
+.OneHalfColumn:last-child {
+	margin-right: 0;
+	padding:0;
+}
+
+#ContentSubmissions .ContentColumn {
+	padding:0;
+}
+
+#ContentSubmissions div.GenericPreviewListModule {
+	margin-bottom:0;
+}
+
+#ContentSubmissions div.GenericPreviewListModule li {
+	display: inline-block;
+	text-align: center;
+	border-bottom: none;
+	padding: 10px 0 25px;
+}
+
+#ContentSubmissions div.GenericPreviewListModule li:last-child {
+	display: none;
+}
+
+#ContentSubmissions div.GenericPreviewListModule div.Preview {
+	display: block;
+	height: 128px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0 8px;
+	width: auto;
+}
+
+#ContentSubmissions div.GenericPreviewListModule div.Preview a {
+	display: block;
+	overflow: hidden;
+	height:128px;
+}
+
+#ContentSubmissions div.GenericPreviewListModule div.Preview a:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+#ContentSubmissions img.PreviewImage {
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#ContentSubmissions div.GenericPreviewListModule a.Name {
+	width: 235px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	font: 14px 'trebuchet ms','comic sans','cursive' !important;
+	color: #fceeb7 !important;
+	text-shadow: none !important;
+}
+#ContentSubmissions div.GenericPreviewListModule a.Name:hover {
+	color: #e76526 !important;
 }
 
 /* SUBMISSION PAGE STYLES
