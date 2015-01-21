@@ -547,6 +547,7 @@ div#MasterLog {
 
 #ItemProfileModule .Content {
 	padding: 20px;
+	position: relative;
 }
 
 #ItemProfileModule .Screenshots .FirstScreenshot {
@@ -782,8 +783,8 @@ div#MasterLog {
 /* GBX */
 #GbxRibbon {
 	position: absolute;
-	right: 285px;
-	top: 163px;
+	right: 25px;
+	top: 21px;
 }
 
 /* Structure (thanks tom) */
