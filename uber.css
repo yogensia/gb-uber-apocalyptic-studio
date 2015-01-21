@@ -621,8 +621,12 @@ div#MasterLog {
 }
 
 #ItemProfileModule div.Download #AlternateDownloadSources a {
+	background: #3f6f90;
 	font-size: 18px;
 	padding: 10px 10px 15px;
+}
+#ItemProfileModule div.Download #AlternateDownloadSources a:hover {
+	background: #4884ad;
 }
 #ItemProfileModule div.Download #AlternateDownloadSources a:active {
 	margin-top: 3px;
