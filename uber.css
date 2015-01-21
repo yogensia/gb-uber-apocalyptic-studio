@@ -697,8 +697,26 @@ div#MasterLog {
 	margin-bottom: 0;
 }
 
+#WinningContestInfoModule div.Content {
+	background: #1e1f21 url(https://www.dropbox.com/s/obmzr6dzxtjdol5/bg-contest-module.jpg?raw=1) center top;
+}
+
+#WinningContestInfoModule article h2 {
+	border-bottom: 1px solid rgba(255,255,255,0.15);
+	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin: 5px 0 18px;
+	text-transform: uppercase;
+}
+
+#WinningContestInfoModule article p {
+	line-height: 18px;
+}
+
 #CategoryModule div.Content,
-#GameModule div.Content {
+#GameModule div.Content,
+#ContestModule div.Content {
 	text-align:center;
 }
 
