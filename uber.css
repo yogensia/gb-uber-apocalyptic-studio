@@ -528,7 +528,56 @@ div.GenericPreviewListModule li:last-child {
 }
 
 #ContentExtras #PostAddFormRequesterModule .Content {
-	padding-bottom: 8px;
+	padding: 10px 10px 0;
+}
+
+#PostQuoteFormModule  .Content,
+#PostAddFormRequesterModule .Content .Content {
+	padding: 0;
+	overflow: hidden;
+}
+
+#PostQuoteFormModule  .Content fieldset#Article,
+#PostAddFormRequesterModule .Content fieldset#Article {
+	border-bottom: none;
+	padding:0;
+}
+
+#PostAddFormRequesterModule .Content .Submit {
+	padding:0;
+}
+
+.markItUpHeader {
+	position: relative;
+	z-index: 1;
+	left: 10px;
+}
+
+.markItUpHeader:hover {
+	z-index: 5;
+}
+
+.markItUpHeader ul {
+	overflow:hidden;
+}
+
+.markItUpEditor {
+	background: #0f0f10;
+	position: relative;
+	z-index: 2;
+	top: -43px;
+	padding-top:8px;
+	margin-bottom: -43px!important;
+}
+.markItUpEditor,
+.markItUpContainer:hover .markItUpEditor,
+.markItUpEditor:focus {
+	z-index: 0;
+	padding-top: 43px;
+}
+
+#IsAnonymous {
+	display: none;
 }
 
 #PostAddFormRequesterModule .LogMessages:first-child {
