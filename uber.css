@@ -319,6 +319,9 @@ div#GuestLinks {
 	text-transform: uppercase;
 	top: 64px;
 	width: 680px;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 #Studio_Profile #PageTitle,
@@ -856,16 +859,17 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #WinningContestInfoModule div.Content {
-	background: #1e1f21 url(https://www.dropbox.com/s/obmzr6dzxtjdol5/bg-contest-module.jpg?raw=1) center top;
+	background: #1e1f21 url(https://www.dropbox.com/s/obmzr6dzxtjdol5/bg-contest-module.jpg?raw=1) center top no-repeat;
 }
 
 #WinningContestInfoModule article h2 {
-	border-bottom: 1px solid rgba(255,255,255,0.15);
+	border-bottom: none;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	margin: 5px 0 18px;
+	margin: 5px auto 18px;
 	text-transform: uppercase;
+	width: 140px;
 }
 
 #WinningContestInfoModule article p {
