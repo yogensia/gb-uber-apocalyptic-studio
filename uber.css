@@ -10,7 +10,7 @@ http://creativecommons.org/licenses/by-nc-sa/4.0/
 Document Outline:
 -----------------
 
-- CUSTOM FONTS
+- CUSTOM CONTENT
 - HIDES
 - GENERAL
   - Main Structure
@@ -36,6 +36,7 @@ Document Outline:
 - STUDIO PROFILE STYLES
   - Structure
 - SUBMISSION PAGE STYLES
+  - Expandable Boxes
   - Remove subFeed
   - Structure
   - Update Info Module
@@ -50,11 +51,19 @@ Document Outline:
 
 
 
-/* CUSTOM FONTS
+/* CUSTOM CONTENT
 ------------------------------------------------------------- */
 
 /* Roboto Condensed (headlines) */
 @import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+
+/* Center Class */
+
+.center {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
 
 /* HIDES
 ------------------------------------------------------------- */
@@ -513,7 +522,7 @@ div.GenericPreviewListModule li:last-child {
 }
 
 .FluidColumn #PostAddFormRequesterModule:last-child {
-	display:none;
+	display: none;
 }
 
 .FluidColumn #PostsListModule {
@@ -710,6 +719,15 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* SUBMISSION PAGE MODULES
 ------------------------------------------------------------- */
+
+#WithholdNoticeModule
+#FlagNoticeModule {
+	text-align: center;
+}
+
+#WithholdNoticeModule h3 {
+	display: none;
+}
 
 #ItemProfileModule .Content {
 	padding: 20px;
@@ -1017,6 +1035,57 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* SUBMISSION PAGE STYLES
 ------------------------------------------------------------- */
+
+/* Expandable Boxes */
+.Module .Content .ExpandableBox {
+	background: rgba(0,0,0,0.2);
+	padding: 5px;
+}
+
+.Module .Content .ExpandableBox .ExpandableBoxContent {
+	display: block;
+	height:0;
+	overflow:hidden;
+	padding: 0 10px;
+}
+
+.Module .Content .ExpandableBox:focus .ExpandableBoxContent {
+	height:auto;
+}
+
+.Module .Content .ExpandableBox h3 {
+	background: #2c2d32;
+	border-bottom: none;
+	border-radius: 3px;
+	cursor: pointer;
+	display: block;
+	margin:0;
+	padding: 10px 10px 10px 30px;
+	position:relative;
+	transition: all 0.3s;
+}
+
+.Module .Content .ExpandableBox:hover h3 {
+	background: #45464b;
+}
+
+.Module .Content .ExpandableBox:focus h3 {
+	background: #a33c1a;
+	cursor: default;
+}
+
+.Module .Content .ExpandableBox h3:before {
+	content:"+ ";
+	font-size: 24px;
+	left:10px;
+	position:absolute;
+	top:3px;
+}
+
+.Module .Content .ExpandableBox:focus h3:before {
+	content:"- ";
+	left:13px;
+}
 
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
