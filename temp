@@ -202,7 +202,7 @@ textarea:focus {
 
 .GenericSuperfish .sf-menu li.TitleOnly,
 .GenericSuperfish .sf-menu a {
-	padding: 10px 10px;
+	padding: 9.5px 10px;
 }
 
 #SectionLinks .sf-menu > li:last-child {
@@ -220,7 +220,7 @@ textarea:focus {
 
 #SectionLinks .sf-menu li:hover ul,#SectionLinks .sf-menu .sfHover ul {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-	top: 43px;
+	top: 42px;
 }
 
 #SectionLinks .sf-menu li:hover ul,#SectionLinks .sf-menu .sfHover ul li {
@@ -319,17 +319,16 @@ div#GuestLinks {
 	font-size: 32px;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	margin: 0;
+	margin: 35px 0 0;
 	outline: 5px solid #a33c1a;
 	padding: 0 30px;
-	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 	text-transform: uppercase;
-	top: 64px;
-	width: 680px;
+	width: 100%;
 	text-overflow:ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
+	box-sizing:border-box;
 }
 
 #Studio_Profile #PageTitle,
@@ -347,9 +346,8 @@ div#TitleBreadcrumb {
 	margin-bottom: 0;
 	outline: 5px solid #a33c1a;
 	padding-bottom: 5px;
-	position: relative;
-	top: 65px;
-	width: 740px;
+	width: 100%;
+	box-sizing:border-box;
 }
 
 #Studio_Profile div#TitleBreadcrumb {
@@ -362,34 +360,27 @@ div#TitleBreadcrumb a:hover {
 
 /* Submission Navigation Buttons */
 nav#BasicSubNavigator {
-	background: none;
+	background: #1e1f21 !important;
 	display: inline-block;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	text-align: center;
-	top: 42px;
-	width: 740px;
+	margin: 5px 0 20px;
+	padding: 10px;
+	text-align:center;
+	width:100%;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
 	transition: all 0.1s ease-in-out;
+	box-sizing:border-box;
 }
 
 nav#BasicSubNavigator li {
 	background: none;
-	position: relative;
+	margin: 1px;
 }
 
 nav#BasicSubNavigator li a {
-	background: #1e1f21;
-	border-radius: 3px 3px 0 0;
-	box-shadow: inset 0px -1px 0px rgba(0,0,0,0.3);
-	color: #e2e2e2;
-	font-size: 11px;
-	padding: 8px;
-	text-transform: uppercase;
+	background: none;
+	border-radius: 2px;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
@@ -397,57 +388,23 @@ nav#BasicSubNavigator li a {
 }
 
 nav#BasicSubNavigator li a:hover {
-	box-shadow: none;
-	background: #a33c1a;
-}
-
-nav#BasicSubNavigator li a span:not(.Icon) {
-	background: #161616;
-	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
-	display: none;
-	left: -36px;
-	padding: 10px;
-	position: absolute;
-	text-align: center;
-	top: -45px;
-	width: 100px;
-	box-sizing: border-box;
-}
-
-nav#BasicSubNavigator li a span:not(.Icon):before {
-	color: #161616;
-	content: " ";
-	border-left: 8px solid transparent!important;
-	border-right: 8px solid transparent!important;
-	border-top: 8px solid;
-	bottom: -7px;
-	display: block;
-	height: 0;
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	right: 0;
-	width: 0;
-}
-
-
-nav#BasicSubNavigator li a:hover span:not(.Icon) {
-	display: block;
+	background: #45464b;
+	color: #e2e2e2;
 }
 
 #BasicSubNavigator sup {
-	color: #fff;
-	display: none;
-	font-size: 10px;
-	font-weight: bold;
-	margin-left: -3px;
-	padding: 2px 5px;
-	position: static;
+	color:#fff;
+	font-size:11px;
+	vertical-align:-1px;
+	font-weight:bold;
+	margin-left:-3px;
+	padding:2px 5px;
+	position:static;
 }
 
 #DropdownMenuSubNavigator {
-	background: none !important;
 	padding: 10px;
+	background: none !important;
 }
 
 /* COMMON MODULES
@@ -757,13 +714,24 @@ div.ProjectPreviewListModule a.Name:hover {
 /* SUBMISSION PAGE MODULES
 ------------------------------------------------------------- */
 
-#WithholdNoticeModule
-#FlagNoticeModule {
+.FluidColumn #ItemProfileModule:before {
+	content:"Description";
 	text-align: center;
-}
-
-#WithholdNoticeModule h3 {
-	display: none;
+	display:block;
+	background-color: #a33c1a;
+	background: #a33c1a;
+	box-shadow: 0px 2px 6px #111;
+	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	outline: 3px solid #a33c1a;
+	padding: 7px;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	text-transform: uppercase;
+	z-index: 1;
 }
 
 #ItemProfileModule .Content {
@@ -1037,8 +1005,8 @@ div.ProjectPreviewListModule a.Name:hover {
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a {
 	display: block;
-	height: 128px;
 	overflow: hidden;
+	height:128px;
 }
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a:before {
@@ -1049,20 +1017,22 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #ContentSubmissions img.PreviewImage {
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	display: inline-block;
 	vertical-align: middle;
 }
 
 #ContentSubmissions div.GenericPreviewListModule a.Name {
-	color: #fceeb7 !important;
+	width: 235px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 	display: block;
 	font: 14px 'trebuchet ms','comic sans','cursive' !important;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	color: #fceeb7 !important;
 	text-shadow: none !important;
-	white-space: nowrap;
-	width: 235px;
 }
 #ContentSubmissions div.GenericPreviewListModule a.Name:hover {
 	color: #e76526 !important;
@@ -1124,13 +1094,12 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
-	margin-top: 70px;
 	width: 740px !important;
 }
 
 #ColumnGrid > .StaticColumn {
 	width: 245px !important;
-	padding-top: 2px !important;
+	padding-top: 0px !important;
 }
 
 /* GBX */

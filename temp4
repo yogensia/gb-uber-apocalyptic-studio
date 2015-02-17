@@ -1072,54 +1072,79 @@ div.ProjectPreviewListModule a.Name:hover {
 ------------------------------------------------------------- */
 
 /* Expandable Boxes */
-.Module .Content .ExpandableBox {
+.Module .Content .ExpandableBox, details {
 	background: rgba(0,0,0,0.2);
 	padding: 5px;
 }
 
 .Module .Content .ExpandableBox .ExpandableBoxContent {
 	display: block;
-	height:0;
-	overflow:hidden;
+	height: 0;
+	overflow: hidden;
 	padding: 0 10px;
 }
 
-.Module .Content .ExpandableBox:focus .ExpandableBoxContent {
+.Module .Content .ExpandableBox:focus .ExpandableBoxContent, details {
 	height:auto;
 }
 
-.Module .Content .ExpandableBox h3 {
+.Module .Content .ExpandableBox h3, summary {
 	background: #2c2d32;
 	border-bottom: none;
 	border-radius: 3px;
 	cursor: pointer;
 	display: block;
-	margin:0;
+	margin: 0;
 	padding: 10px 10px 10px 30px;
-	position:relative;
+	position: relative;
 	transition: all 0.3s;
 }
 
-.Module .Content .ExpandableBox:hover h3 {
+.Module .Content .ExpandableBox:hover h3, summary:hover {
 	background: #45464b;
 }
 
-.Module .Content .ExpandableBox:focus h3 {
+.Module .Content .ExpandableBox:focus h3, summary:focus {
 	background: #a33c1a;
-	cursor: default;
 }
 
 .Module .Content .ExpandableBox h3:before {
-	content:"+ ";
+	content: "+ ";
 	font-size: 24px;
-	left:10px;
-	position:absolute;
-	top:3px;
+	left: 10px;
+	position: absolute;
+	top: 3px;
 }
 
 .Module .Content .ExpandableBox:focus h3:before {
-	content:"- ";
-	left:13px;
+	content: "- ";
+	left: 13px;
+}
+
+summary {
+	margin: 4px 0 6px 0;
+}
+
+details {
+	display: block;
+	padding: 8px;
+}
+
+summary::-webkit-details-marker {
+	display: none
+}
+
+summary:after {
+	content: "+";
+	float: left;
+	font-size: 24px;
+	margin: -6.5px 6px 0 0;
+	padding: 0;
+	text-align: center;
+}
+
+details[open] summary:after {
+	content: "-";
 }
 
 /* Remove subFeed */
@@ -1138,6 +1163,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	position: absolute;
 	right: 25px;
 	top: 21px;
+	z-index: 2;
 }
 
 /* Structure (thanks tom) */

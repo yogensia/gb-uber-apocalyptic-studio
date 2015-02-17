@@ -362,34 +362,36 @@ div#TitleBreadcrumb a:hover {
 
 /* Submission Navigation Buttons */
 nav#BasicSubNavigator {
-	background: none;
+	background: #1e1f21 !important;
 	display: inline-block;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
 	text-align: center;
-	top: 42px;
-	width: 740px;
+	margin: 0;
+	padding: 20px;
+	position: absolute;
+	left:0;
+	top: 145px;
+	width: 700px;
+	z-index: 1;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
 	transition: all 0.1s ease-in-out;
 }
+nav#BasicSubNavigator:hover {
+	padding:28px 20px 12px;
+}
 
 nav#BasicSubNavigator li {
 	background: none;
-	position: relative;
+	position:relative;
 }
 
 nav#BasicSubNavigator li a {
-	background: #1e1f21;
-	border-radius: 3px 3px 0 0;
-	box-shadow: inset 0px -1px 0px rgba(0,0,0,0.3);
+	border-radius: 2px;
+	background: none;
 	color: #e2e2e2;
-	font-size: 11px;
-	padding: 8px;
-	text-transform: uppercase;
+	text-transform:uppercase;
+	font-size:11px;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-o-transition: all 0.1s ease-in-out;
@@ -397,57 +399,35 @@ nav#BasicSubNavigator li a {
 }
 
 nav#BasicSubNavigator li a:hover {
-	box-shadow: none;
-	background: #a33c1a;
+	background: #45464b;
 }
 
 nav#BasicSubNavigator li a span:not(.Icon) {
-	background: #161616;
-	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
-	display: none;
-	left: -36px;
-	padding: 10px;
-	position: absolute;
-	text-align: center;
-	top: -45px;
-	width: 100px;
-	box-sizing: border-box;
+	position:absolute;
+	display:none;
+	top:-15px;
+	left:-86px;
+	width:200px;
+	text-align:center;
 }
-
-nav#BasicSubNavigator li a span:not(.Icon):before {
-	color: #161616;
-	content: " ";
-	border-left: 8px solid transparent!important;
-	border-right: 8px solid transparent!important;
-	border-top: 8px solid;
-	bottom: -7px;
-	display: block;
-	height: 0;
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	right: 0;
-	width: 0;
-}
-
 
 nav#BasicSubNavigator li a:hover span:not(.Icon) {
-	display: block;
+	display:block;
 }
 
 #BasicSubNavigator sup {
-	color: #fff;
-	display: none;
-	font-size: 10px;
-	font-weight: bold;
-	margin-left: -3px;
-	padding: 2px 5px;
-	position: static;
+	color:#fff;
+	font-size:10px;
+	font-weight:bold;
+	margin-left:-3px;
+	padding:2px 5px;
+	position:static;
+	display:none;
 }
 
 #DropdownMenuSubNavigator {
-	background: none !important;
 	padding: 10px;
+	background: none !important;
 }
 
 /* COMMON MODULES
@@ -1037,8 +1017,8 @@ div.ProjectPreviewListModule a.Name:hover {
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a {
 	display: block;
-	height: 128px;
 	overflow: hidden;
+	height:128px;
 }
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a:before {
@@ -1049,20 +1029,22 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #ContentSubmissions img.PreviewImage {
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	display: inline-block;
 	vertical-align: middle;
 }
 
 #ContentSubmissions div.GenericPreviewListModule a.Name {
-	color: #fceeb7 !important;
+	width: 235px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 	display: block;
 	font: 14px 'trebuchet ms','comic sans','cursive' !important;
-	overflow: hidden;
-	text-overflow: ellipsis;
+	color: #fceeb7 !important;
 	text-shadow: none !important;
-	white-space: nowrap;
-	width: 235px;
 }
 #ContentSubmissions div.GenericPreviewListModule a.Name:hover {
 	color: #e76526 !important;
@@ -1124,7 +1106,7 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
-	margin-top: 70px;
+	margin-top: 111px;
 	width: 740px !important;
 }
 
@@ -1138,6 +1120,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	position: absolute;
 	right: 25px;
 	top: 21px;
+	z-index: 2;
 }
 
 /* Structure (thanks tom) */
