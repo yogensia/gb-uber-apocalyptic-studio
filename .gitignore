@@ -1,1 +1,5 @@
+# exclude SublimeText settings files
+*.settings*
+
+# exclude extra files
 notes.html
