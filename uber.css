@@ -705,7 +705,7 @@ div#MasterLog {
 	padding-right: 0;
 }
 
-#PostsListModule .LabelState.IsModerator {
+#PostsListModule .LabelState {
 	border-width: 2px;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 	font-size: 12px;
