@@ -707,6 +707,7 @@ div#MasterLog {
 	padding-right: 0;
 }
 
+#SubmitterModule .LabelState,
 #PostsListModule .LabelState {
 	border-width: 2px;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
