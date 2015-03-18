@@ -327,6 +327,7 @@ div#GuestLinks {
 	text-transform: uppercase;
 	top: 64px;
 	width: 680px;
+	text-align: center;
 	text-overflow:ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
@@ -348,8 +349,9 @@ div#TitleBreadcrumb {
 	outline: 5px solid #a33c1a;
 	padding-bottom: 5px;
 	position: relative;
+	text-align: center;
 	top: 65px;
-	width: 740px;
+	width: 735px;
 }
 
 #Studio_Profile div#TitleBreadcrumb {
