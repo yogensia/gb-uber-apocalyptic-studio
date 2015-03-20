@@ -40,6 +40,7 @@ Document Outline:
   - Remove subFeed
   - Structure
   - Update Info Module
+  - Submission Description Typography
 - OTHER GAMEBANANA STYLES
   - Buttons
   - Tooltips
@@ -1243,6 +1244,68 @@ div.ProjectPreviewListModule a.Name:hover {
 	width: 700px;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+/* Submission Description Typography */
+#ItemProfileModule article p {
+	font-size: 14px;
+	line-height: 21px;
+	margin: 0 0 21px;
+	padding: 0;
+}
+
+#ItemProfileModule h1,
+#ItemProfileModule h2,
+#ItemProfileModule h3,
+#ItemProfileModule h4,
+#ItemProfileModule h5,
+#ItemProfileModule h6 {
+	border-bottom: 1px solid #444;
+}
+
+#ItemProfileModule img {
+	display: block;
+}
+
+#ItemProfileModule .ResizedImageWrapper a {
+	display: none;
+}
+
+#ItemProfileModule article strong {
+	color:#fff;
+}
+
+#ItemProfileModule article ul,
+#ItemProfileModule article ol {
+	margin: 21px 0 21px;
+	padding-left:15px;
+}
+
+#ItemProfileModule article ul {
+	padding-left:17px;
+}
+
+#ItemProfileModule article li {
+	line-height: 21px;
+}
+
+#ItemProfileModule article blockquote {
+	background: rgba(0,0,0,0.15);
+	border-left: 2px solid #a33c1a;
+	font-style: normal;
+	margin: 21px 0 21px;
+	opacity: 1;
+	padding: 15px;
+}
+
+#ItemProfileModule article blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+#ItemProfileModule article pre {
+	padding:0;
+	margin: 21px 25px 21px;
+	max-width: 700px;
 }
 
 /* OTHER GAMEBANANA STYLES
