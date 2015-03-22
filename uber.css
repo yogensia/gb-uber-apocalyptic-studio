@@ -1141,13 +1141,6 @@ div.ProjectPreviewListModule a.Name:hover {
 	padding-top: 2px !important;
 }
 
-/* GBX */
-#GbxRibbon {
-	position: absolute;
-	right: 25px;
-	top: 21px;
-}
-
 /* Structure (thanks tom) */
 #Skin_Profile #ColumnGrid > .ContentColumn:last-child,
 #Map_Profile #ColumnGrid > .ContentColumn:last-child,
