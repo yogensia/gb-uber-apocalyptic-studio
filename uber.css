@@ -779,6 +779,10 @@ div.ProjectPreviewListModule a.Name:hover {
 	margin: 5px 0 10px;
 }
 
+#ItemProfileModule .Screenshots {
+	padding: 0;
+}
+
 #ItemProfileModule .Screenshots li {
 	margin: 5px 5px 10px;
 }
@@ -1080,23 +1084,23 @@ div.ProjectPreviewListModule a.Name:hover {
 ------------------------------------------------------------- */
 
 /* Expandable Boxes */
-.Module .Content .ExpandableBox {
+#Wrapper #ItemProfileModule .ExpandableBox {
 	background: rgba(0,0,0,0.2);
 	padding: 5px;
 }
 
-.Module .Content .ExpandableBox .ExpandableBoxContent {
+#Wrapper #ItemProfileModule .ExpandableBox .ExpandableBoxContent {
 	display: block;
 	height:0;
 	overflow:hidden;
 	padding: 0 10px;
 }
 
-.Module .Content .ExpandableBox:focus .ExpandableBoxContent {
+#Wrapper #ItemProfileModule .ExpandableBox:focus .ExpandableBoxContent {
 	height:auto;
 }
 
-.Module .Content .ExpandableBox h3 {
+#Wrapper #ItemProfileModule .ExpandableBox h3 {
 	background: #2c2d32;
 	border-bottom: none;
 	border-radius: 3px;
@@ -1108,16 +1112,16 @@ div.ProjectPreviewListModule a.Name:hover {
 	transition: all 0.3s;
 }
 
-.Module .Content .ExpandableBox:hover h3 {
+#Wrapper #ItemProfileModule .ExpandableBox:hover h3 {
 	background: #45464b;
 }
 
-.Module .Content .ExpandableBox:focus h3 {
+#Wrapper #ItemProfileModule .ExpandableBox:focus h3 {
 	background: #a33c1a;
 	cursor: default;
 }
 
-.Module .Content .ExpandableBox h3:before {
+#Wrapper #ItemProfileModule .ExpandableBox h3:before {
 	content:"+ ";
 	font-size: 24px;
 	left:10px;
@@ -1125,9 +1129,16 @@ div.ProjectPreviewListModule a.Name:hover {
 	top:3px;
 }
 
-.Module .Content .ExpandableBox:focus h3:before {
+#Wrapper #ItemProfileModule .ExpandableBox:focus h3:before {
 	content:"- ";
 	left:13px;
+}
+
+#Wrapper #ItemProfileModule .ExpandableBox h3 {
+	background: #2c2d32;
+	border-bottom: none;
+	margin: 0;
+	padding: 10px 10px 10px 30px;
 }
 
 /* Remove subFeed */
@@ -1253,7 +1264,10 @@ div.ProjectPreviewListModule a.Name:hover {
 #ItemProfileModule h4,
 #ItemProfileModule h5,
 #ItemProfileModule h6 {
-	border-bottom: 1px solid #444;
+	background: rgba(0,0,0,0.15);
+	border-bottom: 2px solid #a33c1a;
+	padding:10px 20px;
+	margin:40px -20px 21px;
 }
 
 #ItemProfileModule img {
@@ -1295,17 +1309,11 @@ div.ProjectPreviewListModule a.Name:hover {
 	margin-bottom: 0;
 }
 
-#ItemProfileModule article pre {
-	padding:0;
-	margin: 21px 25px 21px;
-	max-width: 700px;
-}
-
 #ItemProfileModule article blockquote {
 	background: rgba(0,0,0,0.15);
 	border-left: 2px solid #a33c1a;
 	font-style: normal;
-	margin: 21px 0 21px;
+	margin: 21px -20px 21px 0;
 	opacity: 1;
 	padding: 15px;
 }
@@ -1313,19 +1321,21 @@ div.ProjectPreviewListModule a.Name:hover {
 #ItemProfileModule article pre {
 	background: rgba(0,0,0,0.15);
 	font-style: normal;
-	margin: 21px 0 21px;
-	opacity: 1;
-	padding: 15px 15px 15px 17px;
+	margin: 21px -20px;
+	max-width: 1000px;
+	padding: 15px 20px;
 }
 
 #ItemProfileModule article .info,
 #ItemProfileModule article .warning {
 	background: rgba(0,0,0,0.15);
 	font-style: normal;
-	margin: 21px 0 21px;
+	margin: 21px -20px 21px;
 	opacity: 1;
 	position: relative;
-	padding: 15px 15px 15px 66px;
+	padding: 15px 20px 15px 71px;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 #ItemProfileModule article .info:before,
@@ -1336,8 +1346,8 @@ div.ProjectPreviewListModule a.Name:hover {
 	width: 36px;
 	content: "";
 	position:absolute;
-	top: 15px;
-	left: 15px;
+	top: 20px;
+	left: 20px;
 }
 
 #ItemProfileModule article .info:before {
