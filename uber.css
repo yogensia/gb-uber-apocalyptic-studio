@@ -1308,6 +1308,52 @@ div.ProjectPreviewListModule a.Name:hover {
 	max-width: 700px;
 }
 
+#ItemProfileModule article blockquote {
+	background: rgba(0,0,0,0.15);
+	border-left: 2px solid #a33c1a;
+	font-style: normal;
+	margin: 21px 0 21px;
+	opacity: 1;
+	padding: 15px;
+}
+
+#ItemProfileModule article pre {
+	background: rgba(0,0,0,0.15);
+	font-style: normal;
+	margin: 21px 0 21px;
+	opacity: 1;
+	padding: 15px 15px 15px 17px;
+}
+
+#ItemProfileModule article .info,
+#ItemProfileModule article .warning {
+	background: rgba(0,0,0,0.15);
+	font-style: normal;
+	margin: 21px 0 21px;
+	opacity: 1;
+	position: relative;
+	padding: 15px 15px 15px 66px;
+}
+
+#ItemProfileModule article .info:before,
+#ItemProfileModule article .warning:before {
+	background: url(http://files.gamebanana.com/bitpit/block-icons.png);
+	display: block;
+	height: 32px;
+	width: 36px;
+	content: "";
+	position:absolute;
+	top: 15px;
+	left: 15px;
+}
+
+#ItemProfileModule article .info:before {
+	background-position: 0 -32px;
+	height: 33px;
+}
+
+
+
 /* OTHER GAMEBANANA STYLES
 ------------------------------------------------------------- */
 

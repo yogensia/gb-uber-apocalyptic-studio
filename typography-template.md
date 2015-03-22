@@ -108,9 +108,24 @@ These are custom blocks supported by Apocalyptic's Uberstyle.
     </div>
 </div>
 
-<div class="tip">Tip Block: Nulla lacinia nec lorem eget ultricies. Mauris fermentum consequat egestas. Donec tempus egestas ex, vel tristique sapien.</div>
+    <div class="ExpandableBox" tabindex="1">
+        <h3>Expandable Box</h3>
+        <div class="ExpandableBoxContent">
+            <br>
+            Nam et massa nunc. In quis est dolor. Praesent ut turpis nisi. Maecenas interdum maximus mi et auctor. Curabitur tellus turpis, varius vitae dictum eu, molestie a elit.
+            <br><br>
+            Nam et massa nunc. In quis est dolor. Praesent ut turpis nisi. Maecenas interdum maximus mi et auctor. Curabitur tellus turpis, varius vitae dictum eu, molestie a elit.
+            <br><br>
+        </div>
+    </div>
+
+<div class="info">Info Block: Nulla lacinia nec lorem eget ultricies. Mauris fermentum consequat egestas. Donec tempus egestas ex, vel tristique sapien.</div>
+
+    <div class="info">Info Block: Nulla lacinia nec lorem eget ultricies. Mauris fermentum consequat egestas. Donec tempus egestas ex, vel tristique sapien.</div>
 
 <div class="warning">Warning Block: Nulla lacinia nec lorem eget ultricies. Mauris fermentum consequat egestas. Donec tempus egestas ex, vel tristique sapien.</div>
+
+    <div class="warning">Warning Block: Nulla lacinia nec lorem eget ultricies. Mauris fermentum consequat egestas. Donec tempus egestas ex, vel tristique sapien.</div>
 
 
 # Embeds (Video, SKFab, etc)
