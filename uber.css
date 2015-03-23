@@ -1265,8 +1265,13 @@ div.ProjectPreviewListModule a.Name:hover {
 #ItemProfileModule h5,
 #ItemProfileModule h6 {
 	background: rgba(0,0,0,0.15);
-	border-bottom: 2px solid #a33c1a;
+	border-bottom: 1px solid #a33c1a;
 	padding:10px 20px;
+	margin:40px 0px 21px;
+}
+
+#ItemProfileModule h1 {
+	border-bottom: 2px solid #a33c1a;
 	margin:40px -20px 21px;
 }
 
@@ -1318,12 +1323,16 @@ div.ProjectPreviewListModule a.Name:hover {
 	padding: 15px;
 }
 
-#ItemProfileModule article pre {
+#Wrapper article pre {
 	background: rgba(0,0,0,0.15);
 	font-style: normal;
 	margin: 21px -20px;
 	max-width: 1000px;
 	padding: 15px 20px;
+}
+
+#Wrapper article blockquote pre {
+	margin: 21px 0;
 }
 
 #ItemProfileModule article .info,
