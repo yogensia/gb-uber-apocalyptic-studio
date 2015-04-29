@@ -71,6 +71,7 @@ Document Outline:
 
 /* Hide Gamebanana Items */
 div#TopBanner,
+div#AtfLeaderboard,
 div#AtfSquareBanner,
 div#BtfSquareBanner,
 div#FooterBannerRow,
@@ -98,7 +99,7 @@ body {
 }
 
 div#MainContent {
-	margin-top: 147px;
+	padding-top: 300px;
 	padding-bottom: 60px;
 }
 
@@ -143,13 +144,13 @@ textarea:focus {
 	z-index: 2;
 }
 
-#NetworkLinks li:not(:first-child) {
+#NetworkLinks li:not(:first-child):not(:last-child) {
 	display: none;
 }
 
 #NetworkLinks #GamebananaTab {
 	background: none;
-	margin-top: 6px;
+	padding:12px 20px 0;
 }
 
 #NetworkLinks #GamebananaTab a {
@@ -163,21 +164,6 @@ textarea:focus {
 }
 
 /* Section Menu (top bar) */
-#SectionLinks {
-	background: #292929;
-	border-bottom: 5px solid #a33c1a;
-	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-}
-
-#SectionLinks > ul {
-	margin: 0 auto;
-	width: 1000px;
-}
-
 #SectionLinks .sf-menu > li {
 	background: #292929;
 	display: inline;
@@ -230,15 +216,39 @@ textarea:focus {
 }
 
 /* Branding Core */
+div#Wrapper {
+	position:static;
+}
+
+div#HeaderWrapper {
+	background:#292929;
+	border-bottom:5px solid #a33c1a;
+	position:absolute;
+	top:0;
+	width:100%;
+	left:0;
+	z-index:10;
+}
+
+div#Header {
+	margin:0 auto;
+	position: relative;
+	width:1000px;
+}
+
 div#CoreStrip {
-	margin-top: 42px;
-	padding: 20px 0 20px 20px;
+	background: none;
+	padding: 10px;
 	z-index: 1;
 }
 
 div#Navigator {
-	margin-left: 71px;
-	padding-top: 4px;
+	margin-left: 90px;
+}
+
+li#ActivityTab.TabHasUpdates {
+	background: #a33c1a;
+	box-shadow: none;
 }
 
 div#GuestLinks {
@@ -273,8 +283,12 @@ div#GuestLinks {
 	opacity: 1;
 }
 
-#SiteSearch {
+li#SiteSearch {
+	display: block;
+	position: absolute;
 	padding: 11px 0 0 0;
+	top: 60px;
+	right: -900px;
 }
 
 #SiteSearch fieldset input {
@@ -305,8 +319,8 @@ div#GuestLinks {
 
 #SiteSearch fieldset img {
    position: absolute;
-   top: 18px;
-   right: 12px;
+   top: 8px;
+   right: 10px;
 }
 
 /* CONTENT
@@ -326,7 +340,7 @@ div#GuestLinks {
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 	text-transform: uppercase;
-	top: 64px;
+	top: 45px;
 	width: 680px;
 	text-align: center;
 	text-overflow:ellipsis;
@@ -342,17 +356,26 @@ div#GuestLinks {
 	width: 100%;
 }
 
+div#AdStrip {
+	height: auto;
+	padding: 0;
+	position:static;
+}
+
 div#TitleBreadcrumb {
 	background: #a33c1a;
 	box-shadow: 0px 2px 6px #111;
 	display: inline-block;
-	margin-bottom: 0;
+	margin: 0;
 	outline: 5px solid #a33c1a;
 	padding-bottom: 5px;
-	position: relative;
+	position: absolute;
 	text-align: center;
-	top: 65px;
-	width: 735px;
+	top: 380px;
+	width: 730px;
+	left: 0;
+	bottom:auto;
+	right:auto;
 }
 
 #Studio_Profile div#TitleBreadcrumb {
@@ -366,13 +389,14 @@ div#TitleBreadcrumb a:hover {
 /* Submission Navigation Buttons */
 nav#BasicSubNavigator {
 	background: none;
+	border-bottom: 0;
 	display: inline-block;
 	left: 0;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	text-align: center;
-	top: 42px;
+	top: 308px;
 	width: 740px;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
@@ -382,6 +406,7 @@ nav#BasicSubNavigator {
 
 nav#BasicSubNavigator li {
 	background: none;
+	border: none;
 	position: relative;
 }
 
@@ -469,6 +494,7 @@ nav#BasicSubNavigator li a:hover span:not(.Icon) {
 div.Module > h3,
 #ContentMessages h3 {
 	background: #a33c1a;
+	border-bottom: none;
 	box-shadow: 0px 2px 6px #111;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 	font-size: 16px;
@@ -1143,7 +1169,7 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
-	margin-top: 70px;
+	margin-top: 64px;
 	width: 740px !important;
 }
 
