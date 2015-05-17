@@ -150,7 +150,7 @@ textarea:focus {
 
 #NetworkLinks #GamebananaTab {
 	background: none;
-	padding:12px 20px 0;
+	padding: 7px 0 0 20px;
 }
 
 #NetworkLinks #GamebananaTab a {
@@ -172,7 +172,7 @@ textarea:focus {
 	font-size: 14px;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	margin-left: 3px;
+	margin-left: 0;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 	text-transform: uppercase;
 }
@@ -189,14 +189,25 @@ textarea:focus {
 
 .GenericSuperfish .sf-menu li.TitleOnly,
 .GenericSuperfish .sf-menu a {
-	padding: 10px 10px;
+	padding: 15px 10px;
+}
+
+.GenericSuperfish .sf-menu li li a {
+	padding: 6px 10px;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.GenericSuperfish .sf-menu li li a:hover {
+	background: #202020;
 }
 
 #SectionLinks .sf-menu > li:last-child {
 	display: none;
 }
 
-#DropdownMenuSubNavigator .sf-menu li:hover ul,#DropdownMenuSubNavigator .sf-menu li.sfHover ul {
+#DropdownMenuSubNavigator .sf-menu li:hover ul,
+#DropdownMenuSubNavigator .sf-menu li.sfHover ul {
 	top: 28px;
 }
 
@@ -207,7 +218,7 @@ textarea:focus {
 
 #SectionLinks .sf-menu li:hover ul,#SectionLinks .sf-menu .sfHover ul {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
-	top: 43px;
+	top: 47px;
 }
 
 #SectionLinks .sf-menu li:hover ul,#SectionLinks .sf-menu .sfHover ul li {
@@ -223,6 +234,7 @@ div#Wrapper {
 div#HeaderWrapper {
 	background:#292929;
 	border-bottom:5px solid #a33c1a;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
 	position:absolute;
 	top:0;
 	width:100%;
@@ -238,15 +250,15 @@ div#Header {
 
 div#CoreStrip {
 	background: none;
-	padding: 10px;
+	padding: 0;
 	z-index: 1;
 }
 
 div#Navigator {
-	margin-left: 90px;
+	margin: 0 0 0 90px;
 }
 
-li#ActivityTab.TabHasUpdates {
+#NavigatorTabs li.TabHasUpdates {
 	background: #a33c1a;
 	box-shadow: none;
 }
@@ -287,8 +299,8 @@ li#SiteSearch {
 	display: block;
 	position: absolute;
 	padding: 11px 0 0 0;
-	top: 60px;
-	right: -900px;
+	top: 56px;
+	right: -920px;
 }
 
 #SiteSearch fieldset input {
@@ -299,7 +311,7 @@ li#SiteSearch {
 	float: left;
 	font-family: Verdana, Geneva, sans-serif;
 	height: 30px;
-	width: 180px;
+	width: 245px;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	-webkit-transition: width 0.5s;
@@ -314,19 +326,23 @@ li#SiteSearch {
 #SiteSearch fieldset input:focus {
 	border: 1px solid #a33c1a;
 	outline: none;
-	width: 250px;
 }
 
 #SiteSearch fieldset img {
-   position: absolute;
-   top: 8px;
-   right: 10px;
+	position: absolute;
+	right: 10px;
+	top: 8px;
 }
 
 /* CONTENT
 ------------------------------------------------------------- */
 
 /* Page Title & Breadcrumbs */
+#PageTitleWrapper {
+	background: none;
+	padding: 0;
+}
+
 #PageTitle {
 	background: #a33c1a;
 	display: inline-block;
@@ -1169,13 +1185,13 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
-	margin-top: 64px;
+	margin-top: 77px;
 	width: 740px !important;
 }
 
 #ColumnGrid > .StaticColumn {
 	width: 245px !important;
-	padding-top: 2px !important;
+	padding-top: 14px !important;
 }
 
 /* Structure (thanks tom) */
