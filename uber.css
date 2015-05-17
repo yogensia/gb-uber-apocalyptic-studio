@@ -1095,13 +1095,6 @@ div.ProjectPreviewListModule a.Name:hover {
 	overflow: hidden;
 }
 
-#ContentSubmissions div.GenericPreviewListModule div.Preview a:before {
-	content: "";
-	display: inline-block;
-	vertical-align: middle;
-	height: 100%;
-}
-
 #ContentSubmissions img.PreviewImage {
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	display: inline-block;
