@@ -341,6 +341,15 @@ li#SiteSearch {
 #PageTitleWrapper {
 	background: none;
 	padding: 0;
+	position: relative;
+}
+
+#PageTitleWrapper a {
+	display: none;
+	position: absolute;
+	top: 56px;
+	left:20px;
+	z-index: 10;
 }
 
 #PageTitle {
