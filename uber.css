@@ -91,7 +91,7 @@ img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 
 /* Main Structure */
 body {
-	background: #161616 url(http://files.gamebanana.com/bitpit/apobanner.jpg) no-repeat center -6px;
+	background: #161616 url(http://files.gamebanana.com/bitpit/apobanner.jpg) no-repeat center -66px;
 }
 
 #Wrapper #MainContent {
@@ -99,7 +99,7 @@ body {
 }
 
 div#MainContent {
-	padding-top: 300px;
+	padding-top: 255px;
 	padding-bottom: 60px;
 }
 
@@ -142,6 +142,7 @@ textarea:focus {
 	background: none;
 	position: absolute;
 	z-index: 2;
+	top: -13px;
 }
 
 #NetworkLinks li:not(:first-child):not(:last-child) {
@@ -232,9 +233,9 @@ div#Wrapper {
 }
 
 div#HeaderWrapper {
-	background:#292929;
-	border-bottom:5px solid #a33c1a;
-	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+	/* background:#292929; */
+	/* border-bottom:5px solid #a33c1a; */
+	/* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25); */
 	position:absolute;
 	top:0;
 	width:100%;
@@ -255,7 +256,7 @@ div#CoreStrip {
 }
 
 div#Navigator {
-	margin: 0 0 0 90px;
+	margin: 13px 0 0 90px;
 }
 
 #NavigatorTabs li.TabHasUpdates {
@@ -299,7 +300,7 @@ li#SiteSearch {
 	display: block;
 	position: absolute;
 	padding: 11px 0 0 0;
-	top: 56px;
+	top: 0;
 	right: -920px;
 }
 
@@ -396,7 +397,7 @@ div#TitleBreadcrumb {
 	padding-bottom: 5px;
 	position: absolute;
 	text-align: center;
-	top: 380px;
+	top: 319px;
 	width: 730px;
 	left: 0;
 	bottom:auto;
@@ -421,7 +422,7 @@ nav#BasicSubNavigator {
 	padding: 0;
 	position: absolute;
 	text-align: center;
-	top: 308px;
+	top: 262px;
 	width: 740px;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
@@ -433,6 +434,10 @@ nav#BasicSubNavigator li {
 	background: none;
 	border: none;
 	position: relative;
+}
+
+#BasicSubNavigator li.ActiveEntry {
+	background: none;
 }
 
 nav#BasicSubNavigator li a {
@@ -482,7 +487,6 @@ nav#BasicSubNavigator li a span:not(.Icon):before {
 	right: 0;
 	width: 0;
 }
-
 
 nav#BasicSubNavigator li a:hover span:not(.Icon) {
 	display: block;
