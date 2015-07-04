@@ -1068,6 +1068,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	float: left;
 	width: 490px;
 	margin-right: 19px;
+	padding-top: 0;
 }
 
 .OneHalfColumn:last-child {
