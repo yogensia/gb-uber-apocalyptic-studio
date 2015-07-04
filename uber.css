@@ -99,7 +99,7 @@ body {
 }
 
 div#MainContent {
-	padding-top: 255px;
+	padding-top: 260px;
 	padding-bottom: 60px;
 }
 
@@ -362,7 +362,7 @@ li#SiteSearch {
 	letter-spacing: 0.1em;
 	margin: 0;
 	outline: 5px solid #a33c1a;
-	padding: 0 30px;
+	padding: 5px 30px 0 30px;
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 	text-transform: uppercase;
@@ -394,10 +394,10 @@ div#TitleBreadcrumb {
 	display: inline-block;
 	margin: 0;
 	outline: 5px solid #a33c1a;
-	padding-bottom: 5px;
+	padding: 0 5px 5px;
 	position: absolute;
 	text-align: center;
-	top: 319px;
+	top: 326px;
 	width: 730px;
 	left: 0;
 	bottom:auto;
@@ -422,7 +422,7 @@ nav#BasicSubNavigator {
 	padding: 0;
 	position: absolute;
 	text-align: center;
-	top: 262px;
+	top: 267px;
 	width: 740px;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
@@ -437,6 +437,7 @@ nav#BasicSubNavigator li {
 }
 
 #BasicSubNavigator li.ActiveEntry {
+	padding-top: 0;
 	background: none;
 }
 
@@ -1191,13 +1192,13 @@ div.ProjectPreviewListModule a.Name:hover {
 
 /* Remove subFeed */
 #ColumnGrid > .FluidColumn {
-	margin-top: 77px;
+	margin-top: 50px;
 	width: 740px !important;
 }
 
 #ColumnGrid > .StaticColumn {
 	width: 245px !important;
-	padding-top: 14px !important;
+	padding-top: 9px !important;
 }
 
 /* Structure (thanks tom) */
