@@ -598,31 +598,14 @@ div.GenericPreviewListModule li:last-child {
 	z-index: 999;
 }
 
-.FluidColumn #PostAddFormRequesterModule:before {
-	content:"Comments";
-	text-align: center;
-	display:block;
-	background-color: #a33c1a;
-	background: #a33c1a;
-	box-shadow: 0px 2px 6px #111;
-	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
-	letter-spacing: 0.1em;
-	outline: 3px solid #a33c1a;
-	padding: 7px;
-	position: relative;
-	text-align: center;
-	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
-	text-transform: uppercase;
-}
+
 
 .FluidColumn #PostAddFormRequesterModule:last-child {
 	display: none;
 }
 
 .FluidColumn #PostsListModule {
-	margin-top: -25px;
+	margin-top: -10px;
 }
 
 .FluidColumn #PostsListModule h3,
@@ -739,7 +722,22 @@ div#PostsListModule div.Content {
 #PostsListModule .PostTools {
 	position: absolute;
 	right: 20px;
-	top: 110px;
+	top: 42px;
+}
+
+#PostsListModule .PostTools li {
+	background: rgba(0,0,0,0.28);
+	border-bottom: 0;
+	box-shadow: none;
+}
+
+#PostsListModule .PostTools li:hover {
+	background: rgba(255,255,255,0.3);
+	border-bottom: 0;
+}
+
+#PostsListModule .PostTools input {
+	margin: 5px 0 5px 3px;
 }
 
 div#MasterLog {
@@ -760,8 +758,16 @@ div#MasterLog {
 }
 
 #PostsListModule .PostHeader div.PostLabels {
-	margin-right: 0;
-	padding-right: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#PostsListModule .PostHeader div.PostLabels span {
+	vertical-align: top;
+}
+
+#PostsListModule .LabelStat {
+	padding-left: 10px;
 }
 
 #SubmitterModule .LabelState,
@@ -771,9 +777,15 @@ div#MasterLog {
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 0.1em;
-	margin: 6px 0 0;
+	margin: 0;
 	padding: 4px 6px;
 	text-transform: uppercase;
+}
+
+
+
+#PostsListModule .LabelState {
+	margin-top: 10px;
 }
 
 /* STUDIO PROFILE MODULES
