@@ -706,7 +706,7 @@ div#PostsListModule div.Content {
 }
 
 #PostsListModule article {
-	padding: 20px 20px 40px;
+	padding: 60px 20px 40px;
 }
 
 #PostsListModule article header {
@@ -720,20 +720,10 @@ div#PostsListModule div.Content {
 }
 
 #PostsListModule .PostTools {
+	padding: 0;
 	position: absolute;
-	right: 20px;
-	top: 42px;
-}
-
-#PostsListModule .PostTools li {
-	background: rgba(0,0,0,0.28);
-	border-bottom: 0;
-	box-shadow: none;
-}
-
-#PostsListModule .PostTools li:hover {
-	background: rgba(255,255,255,0.3);
-	border-bottom: 0;
+	right: 19px;
+	top: 107px;
 }
 
 #PostsListModule .PostTools input {
@@ -742,12 +732,12 @@ div#PostsListModule div.Content {
 
 div#MasterLog {
 	background: rgba(30,31,33, 0.9);
-	position: absolute;
-	top: -227px;
-	right: 400px;
-	width: 24%;
 	margin: auto;
+	position: absolute;
+	right: 400px;
 	text-align: center;
+	top: -227px;
+	width: 24%;
 }
 
 .Module ul.LogMessages {
@@ -758,16 +748,18 @@ div#MasterLog {
 }
 
 #PostsListModule .PostHeader div.PostLabels {
-	margin: 0;
+	margin: 11px 0;
 	padding: 0;
 }
 
-#PostsListModule .PostHeader div.PostLabels span {
-	vertical-align: top;
-}
-
-#PostsListModule .LabelStat {
-	padding-left: 10px;
+#PostsListModule .PostHeader div.PostLabels .Date {
+	color: rgba(200,100,35,0.75);
+	font-size: 14px;
+	font-weight: bold;
+	left: 20px;
+	position: absolute;
+	text-transform: uppercase;
+	top: 109px;
 }
 
 #SubmitterModule .LabelState,
@@ -782,11 +774,6 @@ div#MasterLog {
 	text-transform: uppercase;
 }
 
-
-
-#PostsListModule .LabelState {
-	margin-top: 10px;
-}
 
 /* STUDIO PROFILE MODULES
 ------------------------------------------------------------- */
@@ -947,9 +934,13 @@ div.ProjectPreviewListModule a.Name:hover {
 	background: rgba(0,0,0,0.15);
 	border-left: 2px solid #a33c1a;
 	font-style: normal;
-	margin: 18px 0 18px;
+	margin: 0 0 18px;
 	opacity: 1;
 	padding: 15px;
+}
+
+#PostsListModule article blockquote blockquote {
+	margin: 18px 0 18px;
 }
 
 #PostsListModule article blockquote p:first-child {
