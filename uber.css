@@ -99,7 +99,7 @@ body {
 }
 
 div#MainContent {
-	padding-top: 260px;
+	padding-top: 295px;
 	padding-bottom: 60px;
 }
 
@@ -233,14 +233,11 @@ div#Wrapper {
 }
 
 div#HeaderWrapper {
-	/* background:#292929; */
-	/* border-bottom:5px solid #a33c1a; */
-	/* box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25); */
 	position:absolute;
 	top:0;
 	width:100%;
 	left:0;
-	z-index:10;
+	z-index:20;
 }
 
 div#Header {
@@ -339,18 +336,23 @@ li#SiteSearch {
 ------------------------------------------------------------- */
 
 /* Page Title & Breadcrumbs */
+#MainContentHeader {
+	position: absolute;
+	top: 306px;
+	z-index: 10;
+}
+
+#Studio_Profile #MainContentHeader {
+	top: 236px;
+}
+
 #PageTitleWrapper {
 	background: none;
 	padding: 0;
-	position: relative;
 }
 
 #PageTitleWrapper a {
 	display: none;
-	position: absolute;
-	top: 56px;
-	left:20px;
-	z-index: 10;
 }
 
 #PageTitle {
@@ -366,7 +368,6 @@ li#SiteSearch {
 	position: relative;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 	text-transform: uppercase;
-	top: 45px;
 	width: 680px;
 	text-align: center;
 	text-overflow:ellipsis;
@@ -397,7 +398,7 @@ div#TitleBreadcrumb {
 	padding: 0 5px 5px;
 	position: absolute;
 	text-align: center;
-	top: 326px;
+	top: 36px;
 	width: 730px;
 	left: 0;
 	bottom:auto;
@@ -422,7 +423,7 @@ nav#BasicSubNavigator {
 	padding: 0;
 	position: absolute;
 	text-align: center;
-	top: 267px;
+	top: -38px;
 	width: 740px;
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
@@ -1091,7 +1092,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	display: inline-block;
 	text-align: center;
 	border-bottom: none;
-	padding: 10px 0 25px;
+	padding: 25px 0 25px;
 }
 
 #ContentSubmissions div.GenericPreviewListModule li:last-child {
