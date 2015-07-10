@@ -1041,6 +1041,14 @@ div.ProjectPreviewListModule a.Name:hover {
 	height: 90px;
 }
 
+#ShareToolsModule dl,
+#ShareToolsModule p,
+#SocialMediaTools {
+	text-align: center;
+}
+
+
+
 /* STUDIO PROFILE STYLES
 ------------------------------------------------------------- */
 
@@ -1461,9 +1469,14 @@ button:active,
 }
 
 /* Modals */
+.Modal .Contents {
+	padding: 0;
+}
+
 #PostsListModule .Modal {
 	background: #191a1b;
 	margin: 0;
+	margin-bottom: -45px;
 	padding: 20px 20px 0;
 	position: relative;
 }
