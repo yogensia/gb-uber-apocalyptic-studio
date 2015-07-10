@@ -355,11 +355,11 @@ li#SiteSearch {
 	display: none;
 }
 
-#PageTitle {
+#PageTitleWrapper h1 {
 	background: #a33c1a;
 	display: inline-block;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	margin: 0;
