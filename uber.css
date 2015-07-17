@@ -461,7 +461,7 @@ nav#BasicSubNavigator li a:hover {
 	background: #a33c1a;
 }
 
-nav#BasicSubNavigator li a span:not(.Icon) {
+nav#BasicSubNavigator li a span:not(.IconSheet) {
 	background: #161616;
 	box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
 	display: none;
@@ -474,7 +474,7 @@ nav#BasicSubNavigator li a span:not(.Icon) {
 	box-sizing: border-box;
 }
 
-nav#BasicSubNavigator li a span:not(.Icon):before {
+nav#BasicSubNavigator li a span:not(.IconSheet):before {
 	color: #161616;
 	content: " ";
 	border-left: 8px solid transparent!important;
@@ -490,7 +490,7 @@ nav#BasicSubNavigator li a span:not(.Icon):before {
 	width: 0;
 }
 
-nav#BasicSubNavigator li a:hover span:not(.Icon) {
+nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 	display: block;
 }
 
