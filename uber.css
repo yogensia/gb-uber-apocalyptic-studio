@@ -80,7 +80,8 @@ div#SiteSkinWrapper,
 #cpmstar-site-skin-r,
 #SectionLinks .sf-menu #GameProfilesMenu,
 #SearchableGames,
-#FooterWrapper,
+#BtfLeaderboardRow,
+#AdsByCurseBanner,
 #ImportantLinks,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
@@ -100,7 +101,7 @@ body {
 
 div#MainContent {
 	padding-top: 295px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 /* Links */
@@ -332,6 +333,10 @@ li#SiteSearch {
 	top: 8px;
 }
 
+#FooterWrapper {
+	padding-bottom: 10px;
+}
+
 /* CONTENT
 ------------------------------------------------------------- */
 
@@ -504,10 +509,20 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 	position: static;
 }
 
+#BasicSubNavigator strong {
+	display: inline;
+	vertical-align: baseline;
+}
+
+#BasicSubNavigator a:hover strong {
+	color: rgba(255,255,255,0.75);
+}
+
 #DropdownMenuSubNavigator {
 	background: none !important;
 	padding: 10px;
 }
+
 
 /* COMMON MODULES
 ------------------------------------------------------------- */
@@ -1116,13 +1131,17 @@ div.ProjectPreviewListModule a.Name:hover {
 	padding: 25px 0 25px;
 }
 
+#ContentSubmissions div.GenericPreviewListModule li br {
+	display: none;
+}
+
 #ContentSubmissions div.GenericPreviewListModule li:last-child {
 	display: none;
 }
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview {
 	display: block;
-	height: 128px;
+	height: 135px;
 	overflow: hidden;
 	margin: 0;
 	padding: 0 8px;
@@ -1131,14 +1150,15 @@ div.ProjectPreviewListModule a.Name:hover {
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a {
 	display: block;
-	height: 128px;
+	height: 123px;
 	overflow: hidden;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 }
 
 #ContentSubmissions img.PreviewImage {
-	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	display: inline-block;
 	vertical-align: middle;
+	box-shadow: none;
 }
 
 #ContentSubmissions div.GenericPreviewListModule a.Name {
