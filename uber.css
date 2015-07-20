@@ -1142,29 +1142,38 @@ div.ProjectPreviewListModule a.Name:hover {
 #ContentSubmissions div.GenericPreviewListModule div.Preview {
 	display: block;
 	height: 135px;
-	overflow: hidden;
 	margin: 0;
+	overflow: hidden;
 	padding: 0 8px;
 	width: auto;
 }
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a {
-	display: block;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	display: inline-block;
 	height: 123px;
 	overflow: hidden;
-	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	position: relative;
+	width: 220px;
 }
 
 #ContentSubmissions img.PreviewImage {
-	display: inline-block;
-	vertical-align: middle;
 	box-shadow: none;
+	display: inline-block;
+	left: 50%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	vertical-align: middle;
+	width: 220px;
 }
 
 #ContentSubmissions div.GenericPreviewListModule a.Name {
 	color: #fceeb7 !important;
 	display: block;
 	font: 14px 'trebuchet ms','comic sans','cursive' !important;
+	max-width: none;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	text-shadow: none !important;
