@@ -152,7 +152,7 @@ textarea:focus {
 
 #NetworkLinks #GamebananaTab {
 	background: none;
-	padding: 7px 0 0 20px;
+	padding: 10px 0 0 20px;
 }
 
 #NetworkLinks #GamebananaTab a {
@@ -254,7 +254,7 @@ div#CoreStrip {
 }
 
 div#Navigator {
-	margin: 13px 0 0 90px;
+	margin: 11px 0 0 90px;
 }
 
 #NavigatorTabs li.TabHasUpdates {
@@ -297,7 +297,7 @@ div#GuestLinks {
 li#SiteSearch {
 	display: block;
 	position: absolute;
-	padding: 11px 0 0 0;
+	padding: 13px 0 0 0;
 	top: 0;
 	right: -920px;
 }
@@ -705,6 +705,10 @@ div.GenericPreviewListModule li:last-child {
 
 .PageNavigation:first-child {
 	display: none;
+}
+
+div#PostsListModule {
+	padding-bottom: 50px;
 }
 
 div#PostsListModule div.Content {
@@ -1142,26 +1146,29 @@ div.ProjectPreviewListModule a.Name:hover {
 #ContentSubmissions div.GenericPreviewListModule div.Preview {
 	display: block;
 	height: 135px;
-	margin: 0;
 	overflow: hidden;
+	margin: 0;
 	padding: 0 8px;
 	width: auto;
 }
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a {
-	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	display: inline-block;
 	height: 123px;
 	overflow: hidden;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	position: relative;
 	width: 220px;
 }
 
 #ContentSubmissions img.PreviewImage {
+	display: inline-block;
+	vertical-align: middle;
 	box-shadow: none;
-	left: 50%;
+	margin: auto;
+	transform: translate(-50%,-50%);
 	position: absolute;
 	top: 50%;
-	transform: translate(-50%,-50%);
 	width: 220px;
 }
 
@@ -1169,12 +1176,12 @@ div.ProjectPreviewListModule a.Name:hover {
 	color: #fceeb7 !important;
 	display: block;
 	font: 14px 'trebuchet ms','comic sans','cursive' !important;
-	max-width: none;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	text-shadow: none !important;
 	white-space: nowrap;
 	width: 235px;
+	max-width: none;
 }
 #ContentSubmissions div.GenericPreviewListModule a.Name:hover {
 	color: #e76526 !important;
@@ -1581,37 +1588,40 @@ button:active,
 /* WEBKIT SCROLLBAR
 ------------------------------------------------------------- */
 
-/* Scrollbar */
 ::-webkit-scrollbar {
-	background-color: #121212;
+	background-color: #111;
 	height: 12px;
 	width: 12px;
 }
+::-webkit-scrollbar:horizontal {
+	height: 12px;
+}
+
 ::-webkit-scrollbar-corner {
 	background-color: #0e0e0e;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-	background-color: #121212;
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+	background-color: #0e0e0e;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-	background: rgba(40,40,40,0.7);
-	border-radius: 8px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	background: #7e3118;
 }
-
-/* Handle Hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: rgba(40,40,40,1);
-	border-radius: 8px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+	background: #a33c1a;
 }
 
-/* Scrollbar Horizontal */
-::-webkit-scrollbar:horizontal {
-	height: 12px;
+#Navigator ::-webkit-scrollbar {
+	background-color: #111;
+	height: 7px;
+	width: 7px;
+}
+
+#Navigator ::-webkit-scrollbar-track {
+	background-color: #111;
+}
+
+#Navigator ::-webkit-scrollbar-thumb {
+	border-radius: 5px;
 }
