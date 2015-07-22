@@ -1603,9 +1603,6 @@ button:active,
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #7e3118;
-}
-::-webkit-scrollbar-thumb:hover {
 	background: #a33c1a;
 }
 
