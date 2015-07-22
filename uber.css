@@ -1153,7 +1153,6 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #ContentSubmissions div.GenericPreviewListModule div.Preview a {
-	display: inline-block;
 	height: 123px;
 	overflow: hidden;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
@@ -1162,14 +1161,12 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #ContentSubmissions img.PreviewImage {
-	display: inline-block;
-	vertical-align: middle;
 	box-shadow: none;
-	margin: auto;
 	transform: translate(-50%,-50%);
 	position: absolute;
 	top: 50%;
 	width: 220px;
+	left: 50%;
 }
 
 #ContentSubmissions div.GenericPreviewListModule a.Name {
