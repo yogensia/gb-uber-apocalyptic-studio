@@ -14,10 +14,10 @@
 		<div class="ContentColumn OneColumn">
 			<?= $d["_aModules"]["_sTextureReleases"] ?>
 		</div>
+		<!-- DISABLED MODULES
 		<div class="ContentColumn OneColumn">
-			<?= $d["_aModules"]["_sMapReleases"] ?>
+			<= $d["_aModules"]["_sMapReleases"] ?>
 		</div>
-		<!-- Temporally removed while deciding modules
 		<div class="ContentColumn OneColumn">
 			<= $d["_aModules"]["_sTutorialReleases"] ?>
 		</div>
