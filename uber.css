@@ -860,6 +860,7 @@ div.ProjectPreviewListModule a.Name:hover {
 
 #ItemProfileModule .Screenshots li {
 	margin: 5px 5px 10px;
+	width: auto;
 }
 
 #ItemProfileModule .Screenshots figcaption {
@@ -873,6 +874,10 @@ div.ProjectPreviewListModule a.Name:hover {
 	padding: 0 5px;
 	background: rgba(0,0,0,0.5);
 	border-radius: 3px 3px 0 0;
+}
+
+#ItemProfileModule article .Screenshots img {
+	width: 100%;
 }
 
 #ItemProfileModule div.Content article iframe {
@@ -1379,7 +1384,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	margin:40px -20px 21px;
 }
 
-#ItemProfileModule img {
+#ItemProfileModule article img {
 	display: block;
 }
 
