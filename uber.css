@@ -82,6 +82,7 @@ div#SiteSkinWrapper,
 #SearchableGames,
 #BtfLeaderboardRow,
 #AdsByCurseBanner,
+.BannerModule,
 #ImportantLinks,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
@@ -97,11 +98,13 @@ body {
 
 #Wrapper #MainContent {
 	position: relative;
-}
-
-div#MainContent {
 	padding-top: 295px;
 	padding-bottom: 30px;
+}
+
+#ColumnGrid {
+	overflow: hidden;
+	width: 1015px;
 }
 
 /* Links */
@@ -794,6 +797,10 @@ div#MasterLog {
 	text-transform: uppercase;
 }
 
+#BasicSubFeedModule .MultipleRowListModule ul li {
+	width: auto;
+}
+
 
 /* STUDIO PROFILE MODULES
 ------------------------------------------------------------- */
@@ -1084,6 +1091,12 @@ div.ProjectPreviewListModule a.Name:hover {
 	text-align: center;
 }
 
+#MoreInCategorySubmissionsListModule,
+#MoreByStudioSubmissionsListModule,
+#WipsByStudioSubmissionsListModule {
+	display: none;
+}
+
 
 
 /* STUDIO PROFILE STYLES
@@ -1251,6 +1264,9 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 /* Remove subFeed */
+#ColumnGrid > .ContentColumn {
+	float: left;
+}
 #ColumnGrid > .FluidColumn {
 	margin-top: 50px;
 	width: 740px !important;
@@ -1261,26 +1277,11 @@ div.ProjectPreviewListModule a.Name:hover {
 	padding-top: 9px !important;
 }
 
-/* Structure (thanks tom) */
-#Skin_Profile #ColumnGrid > .ContentColumn:last-child,
-#Map_Profile #ColumnGrid > .ContentColumn:last-child,
-#Wip_Profile #ColumnGrid > .ContentColumn:last-child,
-#Model_Profile #ColumnGrid > .ContentColumn:last-child,
-#Concept_Profile #ColumnGrid > .ContentColumn:last-child,
-#Prefab_Profile #ColumnGrid > .ContentColumn:last-child,
-#Project_Profile #ColumnGrid > .ContentColumn:last-child,
-#Script_Profile #ColumnGrid > .ContentColumn:last-child,
-#Sound_Profile #ColumnGrid > .ContentColumn:last-child,
-#Spray_Profile #ColumnGrid > .ContentColumn:last-child,
-#Sprite_Profile #ColumnGrid > .ContentColumn:last-child,
-#Texture_Profile #ColumnGrid > .ContentColumn:last-child,
-#Tutorial_Profile #ColumnGrid > .ContentColumn:last-child,
-#Gui_Profile #ColumnGrid > .ContentColumn:last-child,
-#HelpWanted_Profile #ColumnGrid > .ContentColumn:last-child,
-#Thread_Profile #ColumnGrid > .ContentColumn:last-child {
-	display: none;
+#ColumnGrid > .StaticColumn .Module:last-child {
+	margin-bottom: 6px;
 }
 
+/* Structure (thanks tom) */
 #Studio_Submissions_Skin #PageTitle,
 #Studio_Submissions_Map #PageTitle,
 #Studio_Submissions_Wip #PageTitle,
