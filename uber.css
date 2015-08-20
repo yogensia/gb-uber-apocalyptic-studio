@@ -659,7 +659,7 @@ div.GenericPreviewListModule li:last-child {
 
 .markItUpHeader {
 	background:#1c1c1c;
-	margin: 0 1px;
+	margin: 0 14px 0 1px;
 	padding: 10px 10px 10px;
 	position: relative;
 	top: -10px;
@@ -1527,6 +1527,15 @@ button:active,
 	margin-bottom: -45px;
 	padding: 20px 20px 0;
 	position: relative;
+}
+
+#PostsListModule .Modal .Modal {
+	padding: 0;
+	margin-bottom: 15px;
+}
+
+#PostsListModule .Modal .Modal article {
+	padding: 15px;
 }
 
 #PostsListModule .Modal .Content {
