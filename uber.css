@@ -149,7 +149,7 @@ textarea:focus {
 	top: -13px;
 }
 
-#NetworkLinks li:not(:first-child):not(:last-child) {
+#NetworkLinks li:not(:first-child) {
 	display: none;
 }
 
