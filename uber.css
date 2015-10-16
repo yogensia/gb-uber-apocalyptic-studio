@@ -84,6 +84,7 @@ div#SiteSkinWrapper,
 #AdsByCurseBanner,
 .BannerModule,
 #ImportantLinks,
+.MaximizeMinimizeButton,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
 }
@@ -442,6 +443,7 @@ nav#BasicSubNavigator {
 nav#BasicSubNavigator li {
 	background: none;
 	border: none;
+	margin-left: 3px;
 	position: relative;
 }
 
@@ -450,10 +452,14 @@ nav#BasicSubNavigator li {
 	background: none;
 }
 
+#BasicSubNavigator li.ActiveEntry a {
+	background: #a33c1a;
+	border-bottom: none;
+}
+
 nav#BasicSubNavigator li a {
 	background: #1e1f21;
 	border-radius: 3px 3px 0 0;
-	box-shadow: inset 0px -1px 0px rgba(0,0,0,0.3);
 	color: #e2e2e2;
 	font-size: 11px;
 	padding: 8px;
@@ -465,8 +471,8 @@ nav#BasicSubNavigator li a {
 }
 
 nav#BasicSubNavigator li a:hover {
-	box-shadow: none;
 	background: #a33c1a;
+	border-bottom: none;
 }
 
 nav#BasicSubNavigator li a span:not(.IconSheet) {
@@ -533,6 +539,7 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 /* Common Module Styles */
 .Module div.Content {
 	background: #1e1f21;
+	margin-left: 0;
 	padding: 20px;
 }
 
@@ -544,6 +551,7 @@ div.Module > h3,
 #ContentMessages h3 {
 	background: #a33c1a;
 	border-bottom: none;
+	border-left: none;
 	box-shadow: 0px 2px 6px #111;
 	font-family: "Roboto Condensed", Verdana, Geneva, sans-serif;
 	font-size: 16px;
@@ -555,6 +563,7 @@ div.Module > h3,
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
 	text-transform: uppercase;
+	z-index: 1;
 }
 
 div.Module > h3 a {
@@ -1032,7 +1041,10 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #StudioModule img {
-	margin-bottom: 0;
+	display: inline-block;
+	margin: auto 0;
+	text-align: center;
+	width: auto;
 }
 
 #WinningContestInfoModule div.Content {
@@ -1350,14 +1362,21 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 #UpdateInfoModule > h3 {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 	background: #191a1b;
 	border-bottom: 1px solid #292929;
+	border-left: none;
 	box-shadow: none;
 	margin: 0 20px;
 	outline: 0;
+	padding: 20px 0 10px;
 	width: 700px;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+}
+
+
+#ItemProfileModule > h3 {
+	display: none;
 }
 
 /* Submission Description Typography */
