@@ -898,6 +898,7 @@ div.ProjectPreviewListModule a.Name:hover {
 
 #ItemProfileModule div.Content article iframe {
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	margin: 0 0 21px;
 }
 
 #ItemProfileModule div.Download {
