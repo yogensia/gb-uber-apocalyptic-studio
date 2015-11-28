@@ -156,7 +156,12 @@ textarea:focus {
 
 #NetworkLinks #GamebananaTab {
 	background: none;
-	padding: 10px 0 0 20px;
+	padding: 7px 0 0 20px;
+}
+
+.Fixed #NetworkLinks #GamebananaTab {
+	background: none;
+	padding: 21px 0 0 0px;
 }
 
 #NetworkLinks #GamebananaTab a {
@@ -234,21 +239,31 @@ textarea:focus {
 
 /* Branding Core */
 div#Wrapper {
-	position:static;
+	position: static;
 }
 
 div#HeaderWrapper {
-	position:absolute;
-	top:0;
-	width:100%;
-	left:0;
-	z-index:20;
+	background: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	left: 0;
+	z-index: 20;
+}
+
+#HeaderWrapper.Fixed {
+	background: #161616;
+	border-bottom: 2px solid #a33c1a;
+	box-shadow: 0 0px 20px #161616;
+	height: 52px;
+	width: 100%;
+	z-index: 10000;
 }
 
 div#Header {
-	margin:0 auto;
+	margin: 0 auto;
 	position: relative;
-	width:1000px;
+	width: 1000px;
 }
 
 div#CoreStrip {
@@ -258,7 +273,11 @@ div#CoreStrip {
 }
 
 div#Navigator {
-	margin: 11px 0 0 90px;
+	margin: 13px 0 0 90px;
+}
+
+.Fixed div#Navigator {
+	margin: 13px 0 0 70px;
 }
 
 #NavigatorTabs li.TabHasUpdates {
