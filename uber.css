@@ -1401,6 +1401,10 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 /* Submission Description Typography */
+.RichText {
+	padding: 0;
+}
+
 #ItemProfileModule article p {
 	font-size: 14px;
 	line-height: 21px;
