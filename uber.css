@@ -365,6 +365,7 @@ li#SiteSearch {
 
 /* Page Title & Breadcrumbs */
 #MainContentHeader {
+	margin-top: 0 !important;
 	position: absolute;
 	top: 306px;
 	z-index: 10;
@@ -1300,7 +1301,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	float: left;
 }
 #ColumnGrid > .FluidColumn {
-	margin-top: 50px;
+	margin-top: 60px;
 	width: 740px !important;
 }
 
