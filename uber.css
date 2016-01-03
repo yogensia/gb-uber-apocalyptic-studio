@@ -72,17 +72,15 @@ Document Outline:
 /* Hide Gamebanana Items */
 div#TopBanner,
 div#AtfLeaderboard,
-div#AtfSquareBanner,
-div#BtfSquareBanner,
+divdiv#AtfSquareBanner,
+#AtfSquareBannerModule,
 div#FooterBannerRow,
 div#SiteSkinWrapper,
 #cpmstar-site-skin-l,
 #cpmstar-site-skin-r,
 #SectionLinks .sf-menu #GameProfilesMenu,
 #SearchableGames,
-#BtfLeaderboardRow,
 #AdsByCurseBanner,
-.BannerModule,
 #ImportantLinks,
 .MaximizeMinimizeButton,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
@@ -1312,6 +1310,17 @@ div.ProjectPreviewListModule a.Name:hover {
 
 #ColumnGrid > .StaticColumn .Module:last-child {
 	margin-bottom: 6px;
+}
+
+#MoreBySubmitterSubmissionsListModule .Content ul li,
+#WipsBySubmitterSubmissionsListModule .Content ul li {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#MoreBySubmitterSubmissionsListModule .Content ul li:nth-child(4),
+#WipsBySubmitterSubmissionsListModule .Content ul li:nth-child(4) {
+	display: none;
 }
 
 /* Structure (thanks tom) */
