@@ -591,6 +591,13 @@ div.Module > h3 a:hover {
 	color: #ebc17b;
 }
 
+#UnseenBroadcastsModule h3 {
+	background: #1e1f21;
+	box-shadow: none;
+	outline: none;
+	padding: 20px 0 0 0;
+}
+
 .Module .Content ul {
 	padding: 0;
 }
@@ -738,7 +745,7 @@ div.GenericPreviewListModule li:last-child {
 }
 
 div#PostsListModule {
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 }
 
 div#PostsListModule div.Content {
@@ -756,7 +763,7 @@ div#PostsListModule div.Content {
 }
 
 #PostsListModule article {
-	padding: 60px 20px 40px;
+	padding: 20px 20px 40px;
 }
 
 #PostsListModule article header {
@@ -798,7 +805,8 @@ div#MasterLog {
 }
 
 #PostsListModule .PostHeader div.PostLabels {
-	margin: 11px 0;
+	float: right;
+	margin: 15px 0;
 	padding: 0;
 }
 
@@ -822,6 +830,14 @@ div#MasterLog {
 	margin: 0;
 	padding: 4px 6px;
 	text-transform: uppercase;
+	border: 2px solid rgba(255, 255, 255, 0.74902);
+	line-height: 20px;
+}
+
+#SubmitterModule .LabelState {
+	display:inline-block;
+	margin: 10px 0 -10px;
+	padding: 0px 6px;
 }
 
 #BasicSubFeedModule .MultipleRowListModule ul li {
@@ -917,6 +933,44 @@ div.ProjectPreviewListModule a.Name:hover {
 #ItemProfileModule div.Content article iframe {
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	margin: 0 0 21px;
+}
+
+article .embed,
+article .video {
+	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	height: 0;
+	margin-bottom: 21px;
+	overflow: hidden;
+	padding-bottom: 56.25%; /* 16:9, 9 / 16 = 0.5625 */
+	position: relative;
+}
+
+article .embed-16-9,
+article .video-16-9 {
+	padding-bottom: 56.25%; /* 16:9, 9 / 16 = 0.5625 */
+}
+
+article .embed-16-10,
+article .video-16-10 {
+	padding-bottom: 62.50%; /* 16:10, 10 / 16 = 0.625 */
+}
+
+article .embed-4-3,
+article .video-4-3 {
+	padding-bottom: 75%; /* 4:3, 3 / 7 = 0.75 */
+}
+
+article .embed iframe,
+article .embed object,
+article .embed embed,
+article .video iframe,
+article .video object,
+article .video embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 #ItemProfileModule div.Download {
@@ -1035,6 +1089,10 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 /* Narrow Column Modules */
+#ScreenshotsModule li:last-child {
+	margin: 0;
+}
+
 .StaticColumn .Module dl {
 	margin: 5px 0 0;
 }
@@ -1299,7 +1357,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	float: left;
 }
 #ColumnGrid > .FluidColumn {
-	margin-top: 60px;
+	margin-top: 59px;
 	width: 740px !important;
 }
 
@@ -1312,10 +1370,20 @@ div.ProjectPreviewListModule a.Name:hover {
 	margin-bottom: 6px;
 }
 
+#MoreBySubmitterSubmissionsListModule .Content ul,
+#WipsBySubmitterSubmissionsListModule .Content ul {
+	margin: 0;
+}
+
 #MoreBySubmitterSubmissionsListModule .Content ul li,
 #WipsBySubmitterSubmissionsListModule .Content ul li {
 	margin-bottom: 10px;
 	width: 100%;
+}
+
+#MoreBySubmitterSubmissionsListModule .Content ul li:nth-child(3),
+#WipsBySubmitterSubmissionsListModule .Content ul li:nth-child(3) {
+	margin: 0;
 }
 
 #MoreBySubmitterSubmissionsListModule .Content ul li:nth-child(4),
