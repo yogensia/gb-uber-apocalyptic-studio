@@ -49,6 +49,7 @@
 *   - Modals
 *   - Stamps
 * - WEBKIT SCROLLBAR
+* - MEDIA QUERIES
 *
 */
 
@@ -66,6 +67,7 @@
 	text-align: center;
 	margin: 0 auto;
 }
+
 
 /* HIDES
 ----------------------------------------------------------------------------- */
@@ -88,6 +90,7 @@ div#SiteSkinWrapper,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
 }
+
 
 /* GENERAL
 ----------------------------------------------------------------------------- */
@@ -138,6 +141,7 @@ textarea:focus {
 	border-color: #a33c1a;
 	outline: none;
 }
+
 
 /* BRANDING
 ----------------------------------------------------------------------------- */
@@ -359,6 +363,7 @@ li#SiteSearch {
 #FooterWrapper {
 	padding-bottom: 10px;
 }
+
 
 /* CONTENT
 ----------------------------------------------------------------------------- */
@@ -891,6 +896,7 @@ div.ProjectPreviewListModule a.Name:hover {
 	color: #e76526 !important;
 }
 
+
 /* SUBMISSION PAGE MODULES
 ----------------------------------------------------------------------------- */
 
@@ -1209,7 +1215,6 @@ article .video embed {
 }
 
 
-
 /* STUDIO PROFILE STYLES
 ----------------------------------------------------------------------------- */
 
@@ -1312,6 +1317,7 @@ article .video embed {
 #ContentSubmissions div.GenericPreviewListModule a.Name:hover {
 	color: #e76526 !important;
 }
+
 
 /* SUBMISSION PAGE STYLES
 ----------------------------------------------------------------------------- */
@@ -1618,7 +1624,6 @@ article .video embed {
 }
 
 
-
 /* OTHER GAMEBANANA STYLES
 ----------------------------------------------------------------------------- */
 
@@ -1740,6 +1745,7 @@ button:active,
 	font-size: 14px;
 }
 
+
 /* WEBKIT SCROLLBAR
 ----------------------------------------------------------------------------- */
 
@@ -1779,6 +1785,8 @@ button:active,
 }
 
 
+/* MEDIA QUERIES (PLACEHOLDER)
+----------------------------------------------------------------------------- */
 @media only screen and (max-width:321px) {
 
 	body {
