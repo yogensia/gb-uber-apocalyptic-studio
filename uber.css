@@ -1,59 +1,60 @@
-/*
-
-Apocalyptic Studio - Uberstyle created by Yogensia and Rafael De Jongh
-http://gamebanana.com/studios/21599
-
-Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-http://creativecommons.org/licenses/by-nc-sa/4.0/
-
-
-Document Outline:
------------------
-
-- CUSTOM CONTENT
-- HIDES
-- GENERAL
-  - Main Structure
-  - Links
-  - Forms
-- BRANDING
-  - Network Links
-  - Section Menu (top bar)
-  - Branding Core
-- CONTENT
-  - General Styles
-  - Page Title & Breadcrumbs
-  - Submission Navigation Buttons
-- COMMON MODULES
-  - Common Module Styles
-  - Messages/Comments Module
-  - Messages/Comments Module Content
-- STUDIO PROFILE MODULES
-  - Team Table
-- SUBMISSION PAGE MODULES
-  - Message Styles
-  - Narrow Column Modules
-- STUDIO PROFILE STYLES
-  - Structure
-- SUBMISSION PAGE STYLES
-  - Expandable Boxes
-  - Remove subFeed
-  - Structure
-  - Update Info Module
-  - Submission Description Typography
-- OTHER GAMEBANANA STYLES
-  - Buttons
-  - Tooltips
-  - Modals
-  - Stamps
-- WEBKIT SCROLLBAR
-
+/**
+*
+* Apocalyptic Studio - Uberstyle created by Yogensia and Rafael De Jongh
+* http://gamebanana.com/studios/21599
+*
+* Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+* International License.
+*
+* http://creativecommons.org/licenses/by-nc-sa/4.0/
+*
+*
+* Document Outline:
+* -----------------
+*
+* - CUSTOM CONTENT
+* - HIDES
+* - GENERAL
+*   - Main Structure
+*   - Links
+*   - Forms
+* - BRANDING
+*   - Network Links
+*   - Section Menu (top bar)
+*   - Branding Core
+* - CONTENT
+*   - General Styles
+*   - Page Title & Breadcrumbs
+*   - Submission Navigation Buttons
+* - COMMON MODULES
+*   - Common Module Styles
+*   - Messages/Comments Module
+*   - Messages/Comments Module Content
+* - STUDIO PROFILE MODULES
+*   - Team Table
+* - SUBMISSION PAGE MODULES
+*   - Message Styles
+*   - Narrow Column Modules
+* - STUDIO PROFILE STYLES
+*   - Structure
+* - SUBMISSION PAGE STYLES
+*   - Expandable Boxes
+*   - Remove subFeed
+*   - Structure
+*   - Update Info Module
+*   - Submission Description Typography
+* - OTHER GAMEBANANA STYLES
+*   - Buttons
+*   - Tooltips
+*   - Modals
+*   - Stamps
+* - WEBKIT SCROLLBAR
+*
 */
 
 
-
 /* CUSTOM CONTENT
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Roboto Condensed (headlines) */
 @import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
@@ -67,12 +68,12 @@ Document Outline:
 }
 
 /* HIDES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Hide Gamebanana Items */
 div#TopBanner,
 div#AtfLeaderboard,
-divdiv#AtfSquareBanner,
+div#AtfSquareBanner,
 #AtfSquareBannerModule,
 div#FooterBannerRow,
 div#SiteSkinWrapper,
@@ -83,12 +84,13 @@ div#SiteSkinWrapper,
 #AdsByCurseBanner,
 #ImportantLinks,
 .MaximizeMinimizeButton,
+#OpskinsHeaderLink,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
 }
 
 /* GENERAL
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Main Structure */
 body {
@@ -138,7 +140,7 @@ textarea:focus {
 }
 
 /* BRANDING
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Network Links */
 #NetworkLinks {
@@ -359,7 +361,7 @@ li#SiteSearch {
 }
 
 /* CONTENT
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Page Title & Breadcrumbs */
 #MainContentHeader {
@@ -397,7 +399,7 @@ li#SiteSearch {
 	text-transform: uppercase;
 	width: 680px;
 	text-align: center;
-	text-overflow:ellipsis;
+	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
 }
@@ -552,7 +554,7 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 
 
 /* COMMON MODULES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Common Module Styles */
 .Module div.Content {
@@ -658,7 +660,7 @@ div.GenericPreviewListModule li:last-child {
 }
 
 .FluidColumn #PostsListModule {
-	margin-top: -10px;
+	/* margin-top: -10px; */
 }
 
 .FluidColumn #PostsListModule h3,
@@ -671,7 +673,7 @@ div.GenericPreviewListModule li:last-child {
 }
 
 #ContentExtras #PostAddFormRequesterModule .Content {
-	padding: 17px 20px 5px;
+	padding: 20px;
 }
 
 #PostQuoteFormModule .Content,
@@ -745,7 +747,7 @@ div.GenericPreviewListModule li:last-child {
 }
 
 div#PostsListModule {
-	/*padding-bottom: 50px;*/
+	/* padding-bottom: 50px; */
 }
 
 div#PostsListModule div.Content {
@@ -759,11 +761,17 @@ div#PostsListModule div.Content {
 
 #PostsListModule div.PostHeader {
 	background: #2c2d32;
-	padding: 20px;
+	padding: 10px 20px 0 !important;
+}
+
+#PostsListModule .Content ul .Post .LabelStat.Date {
+	padding: 22px 0 0 20px;
+	border: none;
+	font-weight: bold;
 }
 
 #PostsListModule article {
-	padding: 20px 20px 40px;
+	padding: 20px 20px 40px !important;
 }
 
 #PostsListModule article header {
@@ -780,7 +788,7 @@ div#PostsListModule div.Content {
 	padding: 0;
 	position: absolute;
 	right: 19px;
-	top: 107px;
+	top: 87px;
 }
 
 #PostsListModule .PostTools input {
@@ -804,7 +812,7 @@ div#MasterLog {
 	text-align: center;
 }
 
-#PostsListModule .PostHeader div.PostLabels {
+#PostsListModule .Content ul .Post .PostHeader .PostLabels {
 	float: right;
 	margin: 15px 0;
 	padding: 0;
@@ -846,7 +854,7 @@ div#MasterLog {
 
 
 /* STUDIO PROFILE MODULES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Games Developed */
 #DevelopmentModule .GamesDeveloped li {
@@ -884,7 +892,7 @@ div.ProjectPreviewListModule a.Name:hover {
 }
 
 /* SUBMISSION PAGE MODULES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 #WithholdNoticeModule
 #FlagNoticeModule {
@@ -898,6 +906,19 @@ div.ProjectPreviewListModule a.Name:hover {
 #ItemProfileModule .Content {
 	padding: 20px;
 	position: relative;
+}
+
+#ScreenshotsModule {
+    margin: 0;
+}
+
+#ScreenshotsModule .Content {
+    padding: 20px 20px 0;
+}
+
+#ScreenshotsModule .Content ul li a {
+    padding:0;
+    margin: 10px;
 }
 
 #ItemProfileModule .Screenshots .FirstScreenshot {
@@ -1109,6 +1130,7 @@ article .video embed {
 	background: #2c2d32;
 	color: #999;
 	font-size: 12px;
+	margin: 0;
 	padding: 10px;
 	text-align: center;
 }
@@ -1189,7 +1211,7 @@ article .video embed {
 
 
 /* STUDIO PROFILE STYLES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Structure */
 #Studio_Profile #PageTitle,
@@ -1292,7 +1314,7 @@ article .video embed {
 }
 
 /* SUBMISSION PAGE STYLES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Expandable Boxes */
 #Wrapper #ItemProfileModule .ExpandableBox {
@@ -1598,7 +1620,7 @@ article .video embed {
 
 
 /* OTHER GAMEBANANA STYLES
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 /* Buttons */
 button,
@@ -1719,7 +1741,7 @@ button:active,
 }
 
 /* WEBKIT SCROLLBAR
-------------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 
 ::-webkit-scrollbar {
 	background-color: #111;
@@ -1754,4 +1776,107 @@ button:active,
 
 #Navigator ::-webkit-scrollbar-thumb {
 	border-radius: 5px;
+}
+
+
+@media only screen and (max-width:321px) {
+
+	body {
+		background: #161616 url(http://files.gamebanana.com/bitpit/bg-apoc-uber-responsive_2.jpg) no-repeat center -20px;
+		background-size: 190%;
+	}
+
+	div#HeaderWrapper,
+	#NetworkLinks {
+		position: static;
+	}
+
+	div#HeaderWrapper {
+		background: rgba(0,0,0,0.5);
+	}
+
+	#NetworkLinks #GamebananaTab {
+		margin: 10px 0 0;
+		padding: 0;
+	}
+
+	#NetworkLinks #GamebananaTab a {
+	    background: url(http://files.gamebanana.com/bitpit/gb-logo_2.png) center center no-repeat;
+	    display: block;
+	    height: 25px;
+	    margin: 0 0 5px;
+	    width: 291px;
+	}
+
+	div#TitleBreadcrumb {
+		position: static;
+		background: rgba(0,0,0,0.3);
+		outline: none;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+
+
+	div#Header,
+	nav#BasicSubNavigator,
+	#PageTitleWrapper h1,
+	div#TitleBreadcrumb {
+		width: 100%;
+	}
+
+	#TitleBreadcrumb li:last-child a {
+		white-space: nowrap;
+	}
+
+	nav#BasicSubNavigator {
+		background: #1e1f21;
+		position: static;
+	}
+
+	nav#BasicSubNavigator li {
+		margin: 0;
+	}
+
+	nav#BasicSubNavigator li a {
+		border-radius: 0;
+	}
+
+	div#Navigator {
+		margin: 0;
+		padding: 5px;
+	}
+
+	#PageTitleWrapper h1 {
+		padding: 5px 5px 5px;
+		text-overflow: initial;
+		white-space: normal;
+		display: inline-block;
+		outline: none;
+		box-sizing: border-box;
+	}
+
+	#MainContentHeader {
+		position: static;
+		padding: 150px 0 0;
+	}
+
+	#Wrapper #MainContent {
+		padding: 0;
+	}
+
+	#ColumnGrid,
+	#ColumnGrid > .ContentColumn {
+		width: 100%!important;
+	}
+
+	#ColumnGrid > .FluidColumn {
+		margin: 0;
+		padding: 0;
+	}
+
+	.Module div.Content,
+	#ItemProfileModule .Content {
+		padding: 10px 10px;
+	}
+
 }
