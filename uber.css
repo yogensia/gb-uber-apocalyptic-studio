@@ -53,7 +53,6 @@
 *
 */
 
-
 /* CUSTOM CONTENT
 ----------------------------------------------------------------------------- */
 
@@ -68,11 +67,11 @@
 	margin: 0 auto;
 }
 
-
 /* HIDES
 ----------------------------------------------------------------------------- */
 
 /* Hide Gamebanana Items */
+.IconSheet.Logo,
 div#TopBanner,
 div#AtfLeaderboard,
 div#AtfSquareBanner,
@@ -90,7 +89,6 @@ div#SiteSkinWrapper,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
 }
-
 
 /* GENERAL
 ----------------------------------------------------------------------------- */
@@ -141,7 +139,6 @@ textarea:focus {
 	border-color: #a33c1a;
 	outline: none;
 }
-
 
 /* BRANDING
 ----------------------------------------------------------------------------- */
@@ -364,7 +361,6 @@ li#SiteSearch {
 	padding-bottom: 10px;
 }
 
-
 /* CONTENT
 ----------------------------------------------------------------------------- */
 
@@ -557,7 +553,6 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 	padding: 10px;
 }
 
-
 /* COMMON MODULES
 ----------------------------------------------------------------------------- */
 
@@ -614,7 +609,6 @@ div.GenericPreviewListModule li:last-child {
 }
 
 /* Messages/Comments Module */
-
 .FluidColumn #GuestNoticeModule:before {
 	content:"Comments";
 	text-align: center;
@@ -657,8 +651,6 @@ div.GenericPreviewListModule li:last-child {
 	position:relative;
 	z-index: 999;
 }
-
-
 
 .FluidColumn #PostAddFormRequesterModule:last-child {
 	display: none;
@@ -857,7 +849,6 @@ div#MasterLog {
 	width: auto;
 }
 
-
 /* STUDIO PROFILE MODULES
 ----------------------------------------------------------------------------- */
 
@@ -895,7 +886,6 @@ div.ForumPreviewListModule a.Name:hover,
 div.ProjectPreviewListModule a.Name:hover {
 	color: #e76526 !important;
 }
-
 
 /* SUBMISSION PAGE MODULES
 ----------------------------------------------------------------------------- */
@@ -1214,7 +1204,6 @@ article .video embed {
 	display: none;
 }
 
-
 /* STUDIO PROFILE STYLES
 ----------------------------------------------------------------------------- */
 
@@ -1317,7 +1306,6 @@ article .video embed {
 #ContentSubmissions div.GenericPreviewListModule a.Name:hover {
 	color: #e76526 !important;
 }
-
 
 /* SUBMISSION PAGE STYLES
 ----------------------------------------------------------------------------- */
@@ -1500,7 +1488,6 @@ article .video embed {
 	width: 700px;
 }
 
-
 #ItemProfileModule > h3 {
 	display: none;
 }
@@ -1623,7 +1610,6 @@ article .video embed {
 	height: 33px;
 }
 
-
 /* OTHER GAMEBANANA STYLES
 ----------------------------------------------------------------------------- */
 
@@ -1745,7 +1731,6 @@ button:active,
 	font-size: 14px;
 }
 
-
 /* WEBKIT SCROLLBAR
 ----------------------------------------------------------------------------- */
 
@@ -1783,7 +1768,6 @@ button:active,
 #Navigator ::-webkit-scrollbar-thumb {
 	border-radius: 5px;
 }
-
 
 /* MEDIA QUERIES (PLACEHOLDER)
 ----------------------------------------------------------------------------- */
