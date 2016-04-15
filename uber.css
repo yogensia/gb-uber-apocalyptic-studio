@@ -1,4 +1,5 @@
 /**
+ *     
 *
 * Apocalyptic Studio - Uberstyle created by Yogensia and Rafael De Jongh
 * http://gamebanana.com/studios/21599
@@ -86,6 +87,7 @@ div#SiteSkinWrapper,
 #ImportantLinks,
 .MaximizeMinimizeButton,
 #OpskinsHeaderLink,
+#HeaderWrapper .GameShortcut,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display: none !important;
 }
@@ -1373,7 +1375,7 @@ article .video embed {
 	float: left;
 }
 #ColumnGrid > .FluidColumn {
-	margin-top: 59px;
+	margin-top: 56px;
 	width: 740px !important;
 }
 
@@ -1522,6 +1524,7 @@ article .video embed {
 }
 
 #ItemProfileModule article img {
+	margin: 0 0 21px;
 	display: block;
 }
 
