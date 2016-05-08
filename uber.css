@@ -1510,7 +1510,6 @@ article .video embed {
 /* Submission Description Typography */
 .RichText {
 	padding: 0;
-	min-width: 100%;
 }
 
 #ItemProfileModule article p {
@@ -1788,8 +1787,8 @@ button:active,
 
 /*Selection
 ------------------*/
-::selection {color:#fff;background-color:#a33c1a}
-::-moz-selection {color:#fff;background-color:#a33c1a}
+::selection {color:#fff;background-color:#F57B52}
+::-moz-selection {color:#fff;background-color:#F57B52}
 
 /* MEDIA QUERIES (PLACEHOLDER)
 ----------------------------------------------------------------------------- */
