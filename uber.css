@@ -1,5 +1,5 @@
 /**
- *     
+*     
 *
 * Apocalyptic Studio - Uberstyle created by Yogensia and Rafael De Jongh
 * http://gamebanana.com/studios/21599
@@ -52,8 +52,6 @@
 * - WEBKIT SCROLLBAR
 * - MEDIA QUERIES
 *
-*/
-
 /* CUSTOM CONTENT
 ----------------------------------------------------------------------------- */
 
@@ -61,7 +59,6 @@
 @import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
 
 /* Center Class */
-
 .center {
 	display: block;
 	text-align: center;
@@ -89,7 +86,7 @@ div#SiteSkinWrapper,
 #OpskinsHeaderLink,
 #HeaderWrapper .GameShortcut,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
-	display: none !important;
+	display:none!important;
 }
 
 /* GENERAL
@@ -553,6 +550,15 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 #DropdownMenuSubNavigator {
 	background: none !important;
 	padding: 10px;
+}
+
+#DropdownMenuSubNavigator .sf-menu ul > li  {
+    background: #111;
+}
+
+#DropdownMenuSubNavigator li a:hover {
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+    background: #444;
 }
 
 /* COMMON MODULES
@@ -1576,7 +1582,8 @@ article .video embed {
 	background: rgba(0,0,0,0.15);
 	font-style: normal;
 	margin: 21px -20px;
-	max-width: 1000px;
+	/*max-width: 1000px;*/
+	max-width: 680px;
 	padding: 15px 20px;
 }
 
