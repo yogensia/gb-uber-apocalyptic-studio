@@ -52,7 +52,7 @@
 * - WEBKIT SCROLLBAR
 * - MEDIA QUERIES
 *
-/* CUSTOM CONTENT
+* CUSTOM CONTENT
 ----------------------------------------------------------------------------- */
 
 /* Roboto Condensed (headlines) */
@@ -550,6 +550,11 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 #DropdownMenuSubNavigator {
 	background: none !important;
 	padding: 10px;
+	margin-top: -80px;
+}
+
+#Studio_Profile #DropdownMenuSubNavigator {
+    margin: 0;
 }
 
 #DropdownMenuSubNavigator .sf-menu ul > li  {
