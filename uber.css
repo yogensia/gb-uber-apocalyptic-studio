@@ -50,6 +50,7 @@
 *   - Modals
 *   - Stamps
 * - WEBKIT SCROLLBAR
+* - WEBKIT SELECTION
 * - MEDIA QUERIES
 *
 * CUSTOM CONTENT
@@ -76,6 +77,7 @@ div#AtfSquareBanner,
 #AtfSquareBannerModule,
 div#FooterBannerRow,
 div#SiteSkinWrapper,
+.IconSheet.MoveButton,
 #cpmstar-site-skin-l,
 #cpmstar-site-skin-r,
 #SectionLinks .sf-menu #GameProfilesMenu,
@@ -554,7 +556,7 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 }
 
 #Studio_Profile #DropdownMenuSubNavigator {
-    margin: 0;
+    margin-top: 10px;
 }
 
 #DropdownMenuSubNavigator .sf-menu ul > li  {
@@ -696,7 +698,7 @@ div.GenericPreviewListModule li:last-child {
 #PostQuoteFormModule .Content fieldset#Article,
 #PostAddFormRequesterModule .Content fieldset#Article {
 	border-bottom: none;
-	padding:0;
+	padding: 10px 0 0 20px;
 }
 
 #PostAddFormRequesterModule .Content .Submit {
@@ -1508,6 +1510,7 @@ article .video embed {
 /* Submission Description Typography */
 .RichText {
 	padding: 0;
+	min-width: 100%;
 }
 
 #ItemProfileModule article p {
@@ -1587,9 +1590,8 @@ article .video embed {
 	background: rgba(0,0,0,0.15);
 	font-style: normal;
 	margin: 21px -20px;
-	/*max-width: 1000px;*/
-	max-width: 680px;
-	padding: 15px 20px;
+	max-width: 670px;
+    padding: 15px 0 15px 50px;
 }
 
 #Wrapper article blockquote pre {
@@ -1783,6 +1785,11 @@ button:active,
 #Navigator ::-webkit-scrollbar-thumb {
 	border-radius: 5px;
 }
+
+/*Selection
+------------------*/
+::selection {color:#fff;background-color:#a33c1a}
+::-moz-selection {color:#fff;background-color:#a33c1a}
 
 /* MEDIA QUERIES (PLACEHOLDER)
 ----------------------------------------------------------------------------- */
