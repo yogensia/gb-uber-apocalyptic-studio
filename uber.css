@@ -1510,6 +1510,7 @@ article .video embed {
 /* Submission Description Typography */
 .RichText {
 	padding: 0;
+	overflow: initial;
 }
 
 #ItemProfileModule article p {
@@ -1589,7 +1590,7 @@ article .video embed {
 	background: rgba(0,0,0,0.15);
 	font-style: normal;
 	margin: 21px -20px;
-	max-width: 670px;
+	max-width: 1000px;
     padding: 15px 0 15px 50px;
 }
 
@@ -1760,11 +1761,11 @@ button:active,
 
 ::-webkit-scrollbar {
 	background-color: #111;
-	height: 12px;
-	width: 12px;
+	height: 14px;
+	width: 14px;
 }
 ::-webkit-scrollbar:horizontal {
-	height: 12px;
+	height: 14px;
 }
 
 ::-webkit-scrollbar-corner {
