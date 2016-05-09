@@ -58,7 +58,6 @@
 
 /* Imports */
 @import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css");
 
 /* Center Class */
 .center {
@@ -1629,30 +1628,10 @@ article .video embed {
 
 /* Gallery - Image Slider*/
 .viewer li > div {
-    -webkit-transition:all 0.5s ease-in-out;
-	-moz-transition:all 0.5s ease-in-out;
-	-o-transition:all 0.5s ease-in-out;
-	transition:all 0.5s ease-in-out;
-}
-
-.viewer li.current div::before {
-    content:"\f137";
-    font-family:"font-awesome";
-    display:inline-block;
-    position: absolute;
-    top: 50%;
-    left: -11px;
-    font-size: 30px;
-}
-
-.viewer li.current div::after {
-    content:"\f0a9";
-    font-family:"font-awesome";
-    display:inline-block;
-    position: absolute;
-    top: 50%;
-    right: -11px;
-    font-size: 30px;
+    -webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
 }
 
 /* OTHER GAMEBANANA STYLES
