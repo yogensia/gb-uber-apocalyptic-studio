@@ -56,8 +56,9 @@
 * CUSTOM CONTENT
 ----------------------------------------------------------------------------- */
 
-/* Roboto Condensed (headlines) */
+/* Imports */
 @import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css");
 
 /* Center Class */
 .center {
@@ -1626,6 +1627,34 @@ article .video embed {
 	height: 33px;
 }
 
+/* Gallery - Image Slider*/
+.viewer li > div {
+    -webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+.viewer li.current div::before {
+    content:"\f137";
+    font-family:"font-awesome";
+    display:inline-block;
+    position: absolute;
+    top: 50%;
+    left: -11px;
+    font-size: 30px;
+}
+
+.viewer li.current div::after {
+    content:"\f0a9";
+    font-family:"font-awesome";
+    display:inline-block;
+    position: absolute;
+    top: 50%;
+    right: -11px;
+    font-size: 30px;
+}
+
 /* OTHER GAMEBANANA STYLES
 ----------------------------------------------------------------------------- */
 
@@ -1642,10 +1671,10 @@ button,
 	text-shadow: 0 1px 0 rgba(0,0,0,.45);
 	box-shadow: none;
 	outline: none;
-	-webkit-transition:all 0.14s ease-in-out;
-	-moz-transition:all 0.14s ease-in-out;
-	-o-transition:all 0.14s ease-in-out;
-	transition:all 0.14s ease-in-out;
+	-webkit-transition:all .14s ease-in-out;
+	-moz-transition:all .14s ease-in-out;
+	-o-transition:all .14s ease-in-out;
+	transition:all .14s ease-in-out;
 }
 
 button:hover,
