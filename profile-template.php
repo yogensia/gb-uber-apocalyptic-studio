@@ -6,7 +6,7 @@
 			<?= $d["_aModules"]["_sSkinReleases"] ?>
 		</div>
 		<div class="ContentColumn OneColumn last">
-			<?= $d["_aModules"]["_sWips"] ?>
+			<?= $d["_aModules"]["_sWipReleases"] ?>
 		</div>
 		<div class="ContentColumn OneColumn">
 			<?= $d["_aModules"]["_sModelReleases"] ?>
@@ -29,14 +29,14 @@
 		<div class="ContentColumn OneHalfColumn">
 		<?= $d["_aModules"]["_sIdentity"] ?>
 		<?= $d["_aModules"]["_sForums"] ?>
-		<?= $d["_aModules"]["_sProjects"] ?>
+		<?= $d["_aModules"]["_sProjectReleases"] ?>
 		<?= $d["_aModules"]["_sRank"] ?>
 		<?= $d["_aModules"]["_sTeamMembersList"] ?>
 		</div>
 		<div class="ContentColumn OneHalfColumn last" id="ContentMessages">
 			<h3>Messages</h3>
 		<?= $d["_aModules"]["_sPostAddFormRequester"] ?>
-		<?= $d["_aModules"]["_sProfileMessages"] ?>
+		<?= $d["_aModules"]["_sPostsList"] ?>
 		</div>
 	</div>
 <?
