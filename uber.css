@@ -88,6 +88,7 @@ div#SiteSkinWrapper,
 #OpskinsHeaderLink,
 #HeaderWrapper .GameShortcut,
 .BasicSubFeedModule,
+.TourWrapper,
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"] {
 	display:none!important;
 }
@@ -1261,6 +1262,10 @@ article .video embed {
 
 #ContentSubmissions .ContentColumn {
 	padding:0;
+}
+
+.ContentColumn > .Module {
+	margin:0;
 }
 
 #ContentSubmissions div.GenericPreviewListModule {
