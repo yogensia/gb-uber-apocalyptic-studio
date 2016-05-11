@@ -558,7 +558,7 @@ nav#BasicSubNavigator li a:hover span:not(.IconSheet) {
 }
 
 #Studio_Profile #DropdownMenuSubNavigator {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #DropdownMenuSubNavigator .sf-menu ul > li  {
@@ -705,6 +705,10 @@ div.GenericPreviewListModule li:last-child {
 
 #PostAddFormRequesterModule .Content .Submit {
 	padding:0;
+}
+
+#PostsListModule .Content ul .Post .PostHeader .PostLabels .StateLabel.IsModerator, #PostsListModule .Content ul .Post .PostHeader .PostLabels .StateLabel.IsSubmitter {
+	padding: 6px 8px;
 }
 
 .markItUpHeader {
@@ -864,6 +868,10 @@ div#MasterLog {
 
 #BasicSubFeedModule .MultipleRowListModule ul li {
 	width: auto;
+}
+
+.MultipleRowListModule td.Preview a {
+    display: inline;
 }
 
 /* STUDIO PROFILE MODULES
@@ -1160,7 +1168,7 @@ article .video embed {
 }
 
 #WinningContestInfoModule div.Content {
-	background: #1e1f21 url(images/contest.jpg) center top no-repeat;
+	background: #1e1f21 url(images/contestbg.jpg) center top no-repeat;
 }
 
 #WinningContestInfoModule article h2 {
@@ -1265,7 +1273,7 @@ article .video embed {
 }
 
 .ContentColumn > .Module {
-	margin:0;
+	/*margin:0;*/
 }
 
 #ContentSubmissions div.GenericPreviewListModule {
