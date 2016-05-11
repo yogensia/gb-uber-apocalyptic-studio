@@ -1,5 +1,4 @@
 ?>
-
 	<!-- SUBMISSIONS -->
 	<div class="ContentColumn FullColumn" id="ContentSubmissions">
 		<div class="ContentColumn OneColumn">
@@ -23,7 +22,6 @@
 		</div>
 		-->
 	</div>
-
 	<!-- MISC MODULES AND MESSAGES -->
 	<div class="ContentColumn FullColumn" id="ContentExtras">
 		<div class="ContentColumn OneHalfColumn">
