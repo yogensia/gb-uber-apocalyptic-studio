@@ -85,7 +85,7 @@ div#SiteSkinWrapper,
 .TourWrapper,
 #DropdownMenuSubNavigator .sf-menu > li:nth-child(4),
 img[src="http://cdn.vvgnet.com/gamebanana/static/img/icons/new_window.gif"]{
-	display:none!important;
+	display:none!important
 }
 /* GENERAL
 ----------------------------------------------------------------------------- */
@@ -775,6 +775,17 @@ div.ProjectPreviewListModule a.Name:hover{
 }
 /* SUBMISSION PAGE MODULES
 ----------------------------------------------------------------------------- */
+#ModeratorNoticeModule{
+	text-align:center;
+}
+#ModeratorNoticeModule h3{
+	outline:0;
+	color:#DCCAC3;
+	background:#1E1F21;
+	box-shadow:none;
+	border-bottom:3px solid #a33c1a;
+	padding:11px 0;
+}
 #WithholdNoticeModule
 #FlagNoticeModule{
 	text-align:center;
