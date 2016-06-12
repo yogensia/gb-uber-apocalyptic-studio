@@ -778,7 +778,7 @@ div.ProjectPreviewListModule a.Name:hover{
 #ModeratorNoticeModule{
 	text-align:center;
 }
-#ModeratorNoticeModule h3{
+#ModeratorNoticeModule h3,#UpdatesModule h3{
 	outline:0;
 	color:#DCCAC3;
 	background:#1E1F21;
@@ -786,8 +786,13 @@ div.ProjectPreviewListModule a.Name:hover{
 	border-bottom:3px solid #a33c1a;
 	padding:11px 0;
 }
-#WithholdNoticeModule
-#FlagNoticeModule{
+#UpdatesModule article h3,#UpdatesModule article p{
+	padding:10px;
+	margin-bottom:10px;
+	border-width:2px;
+	border-color:#282828
+}
+#WithholdNoticeModule, #FlagNoticeModule{
 	text-align:center;
 }
 #WithholdNoticeModule h3{
