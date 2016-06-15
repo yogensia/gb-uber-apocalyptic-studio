@@ -97,6 +97,7 @@ body{
 	position:relative;
 	padding-top:295px;
 	padding-bottom:30px;
+	background:none;
 }
 #ColumnGrid{
 	overflow:hidden;
@@ -210,6 +211,7 @@ textarea:focus{
 /* Branding Core */
 div#Wrapper{
 	position:static;
+	background:none;
 }
 div#HeaderWrapper{
 	background:none;
