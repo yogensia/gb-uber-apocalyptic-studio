@@ -226,11 +226,11 @@ div#CoreStrip{
 	padding:0;
 	z-index:1;
 }
-div#Navigator{
-	margin:13px 0 0 90px;
+#HeaderWrapper header #Navigator {
+	padding: 10px 10px 10px 0;
 }
-.Fixed div#Navigator{
-	margin:13px 0 0 70px;
+#NavigatorTabs li {
+	margin: 0 3px 3px 0;
 }
 #NavigatorTabs li.TabHasUpdates{
 	background:#a33c1a;
@@ -259,43 +259,10 @@ div#GuestLinks{
 	-moz-transition:opacity 0.1s ease-in-out;
 	-o-transition:opacity 0.1s ease-in-out;
 	transition:opacity 0.1s ease-in-out;
-}#GuestLinks li:first-child a:hover,
+}
+#GuestLinks li:first-child a:hover,
 #GuestLinks li:first-child a:active{
 	opacity:1;
-}
-li#SiteSearch{
-	display:block;
-	position:absolute;
-	padding:13px 0 0 0;
-	top:0;
-	right:-920px;
-}
-#SiteSearch fieldset input{
-	border-radius:2px;
-	border:1px solid #595959;
-	color:#bbb;
-	display:block;
-	float:left;
-	font-family:Verdana, Geneva, sans-serif;
-	height:30px;
-	width:245px;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-transition:width 0.5s;
-	-moz-transition:width 0.5s;
-	-o-transition:width 0.5s;
-	transition:width 0.5s;
-}
-#SiteSearch fieldset input:hover{
-	border:1px solid #a33c1a;
-}#SiteSearch fieldset input:focus{
-	border:1px solid #a33c1a;
-	outline:none;
-}
-#SiteSearch fieldset img{
-	position:absolute;
-	right:10px;
-	top:8px;
 }
 #FooterWrapper{
 	padding-bottom:10px;
