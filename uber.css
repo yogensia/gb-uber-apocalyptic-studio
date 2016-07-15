@@ -226,11 +226,15 @@ div#CoreStrip{
 	padding:0;
 	z-index:1;
 }
+#HeaderWrapper header #HomeLink,
 #HeaderWrapper header #Navigator {
-	padding: 10px 10px 10px 0;
+	padding:10px 0px 10px 0;
+}
+#HeaderWrapper header #HomeLink {
+	margin-right: 18px;
 }
 #NavigatorTabs li {
-	margin: 0 3px 3px 0;
+	margin:0 3px 3px 0;
 }
 #NavigatorTabs li.TabHasUpdates{
 	background:#a33c1a;
@@ -1548,23 +1552,25 @@ button:active,
 		background:#161616 url(images/bg-apoc-uber-responsive_2.jpg) no-repeat center -20px;
 		background-size:190%;
 	}
+	#HeaderWrapper header {
+		width:100%;
+	}
 	div#HeaderWrapper,
 	#NetworkLinks{
 		position:static;
 	}
 	div#HeaderWrapper{
 		background:rgba(0,0,0,0.5);
+		padding-top:10px;
 	}
-	#NetworkLinks #GamebananaTab{
-		margin:10px 0 0;
-		padding:0;
-	}
-	#NetworkLinks #GamebananaTab a{
+	#Wrapper #HeaderWrapper #HomeLink{
 		background:url(images/gb-logo_2.png) center center no-repeat;
 		display:block;
 		height:25px;
-		margin:0 0 5px;
+		margin:0 auto 5px;
+		padding:0;
 		width:291px;
+
 	}
 	div#TitleBreadcrumb{
 		position:static;
