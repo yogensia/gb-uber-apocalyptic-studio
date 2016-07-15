@@ -131,30 +131,17 @@ textarea:focus{
 /* BRANDING
 ----------------------------------------------------------------------------- */
 /* Network Links */
-#NetworkLinks{
+#HeaderWrapper header {
 	background:none;
-	position:absolute;
-	z-index:2;
-	top:-13px;
+	display:block;
+	margin:0 auto;
+	width:1000px;
 }
-#NetworkLinks li:not(:first-child){
-	display:none;
-}
-#NetworkLinks #GamebananaTab{
-	background:none;
-	padding:7px 0 0 20px;
-}
-.Fixed #NetworkLinks #GamebananaTab{
-	background:none;
-	padding:21px 0 0 0px;
-}
-#NetworkLinks #GamebananaTab a{
+#HomeLink {
 	background:url(images/apogblogo.png) center center no-repeat;
 	display:block;
 	height:35px;
 	width:60px;
-}#NetworkLinks li:first-child a img{
-	display:none;
 }
 /* Section Menu (top bar) */
 #SectionLinks .sf-menu > li{
