@@ -64,6 +64,13 @@
 #HeaderWrapper.Fixed{
 	position:relative
 }
+#HeaderWrapper.Fixed #MainContentHeader {
+	top: 360px;
+}
+#HeaderWrapper.Fixed #MainContentHeader #PageTitleWrapper h1 {
+	font-size:24px!important;
+	padding-bottom: 20px;:
+}
 /* HIDES
 ----------------------------------------------------------------------------- */
 /* Hide Gamebanana Items */
@@ -103,6 +110,7 @@ body{
 	padding-top:295px;
 	padding-bottom:30px;
 	background:none;
+	margin:0!important;
 }
 #ColumnGrid{
 	overflow:hidden;
@@ -212,6 +220,7 @@ div#HeaderWrapper{
 	width:100%;
 	left:0;
 	z-index:20;
+	display:block!important;
 }
 #HeaderWrapper.Fixed{
 	background:#161616;
