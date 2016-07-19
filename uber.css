@@ -59,6 +59,11 @@
 	text-align:center;
 	margin:0 auto;
 }
+/* TEMP FIXES!!!
+----------------------------------------------------------------------------- */
+#HeaderWrapper.Fixed{
+	position:relative
+}
 /* HIDES
 ----------------------------------------------------------------------------- */
 /* Hide Gamebanana Items */
