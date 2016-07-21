@@ -378,6 +378,7 @@ nav#BasicSubNavigator li{
 	border:none;
 	margin-left:3px;
 	position:relative;
+	box-shadow: none;
 }
 #BasicSubNavigator li.ActiveEntry{
 	padding-top:0;
