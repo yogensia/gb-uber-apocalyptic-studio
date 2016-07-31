@@ -990,8 +990,12 @@ article .video embed{
 	line-height:18px;
 }
 #WinningContestInfoModule article a{
-    display:block;
-    margin-top:5px;
+	display:block;
+	margin-top:5px;
+}
+#WinningContestInfoModule article small span{
+	display:block;
+	margin-bottom:5px;
 }
 #CategoryModule div.Content,
 #GameModule div.Content,
