@@ -985,10 +985,13 @@ article .video embed{
 	letter-spacing:0.1em;
 	margin:5px auto 18px;
 	text-transform:uppercase;
-	width:140px;
 }
 #WinningContestInfoModule article p{
 	line-height:18px;
+}
+#WinningContestInfoModule article a{
+    display:block;
+    margin-top:5px;
 }
 #CategoryModule div.Content,
 #GameModule div.Content,
