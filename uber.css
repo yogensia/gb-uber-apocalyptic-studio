@@ -424,6 +424,7 @@ nav#BasicSubNavigator li a span:not(.IconSheet){
 	width:100px;
 	box-sizing:border-box;
 }
+#HeaderWrapper.Fixed #MainContentHeader #DropdownMenuSubNavigator{display:none}
 nav#BasicSubNavigator li a span:not(.IconSheet):before{
 	color:#161616;
 	content:" ";
