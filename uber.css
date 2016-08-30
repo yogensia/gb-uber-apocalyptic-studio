@@ -59,6 +59,12 @@
 	text-align:center;
 	margin:0 auto;
 }
+/* TEMP FIXES*/
+#PublicNavigator,#MemberNavigator{
+	display:none!important;
+	visibility:hidden;
+	opacity:0;
+}
 /* Fixed Header
 ----------------------------------------------------------------------------- */
 #HeaderWrapper.Fixed{
