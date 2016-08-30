@@ -158,10 +158,11 @@ textarea:focus{
 	width:1000px;
 }
 #HomeLink {
-	background:url(images/apogblogo.png) center center no-repeat;
+	background:url(images/apogblogo.png) center center no-repeat!important;
 	display:block;
 	height:35px;
 	width:60px;
+	border:none!important;
 }
 /* Section Menu (top bar) */
 #SectionLinks .sf-menu > li{
