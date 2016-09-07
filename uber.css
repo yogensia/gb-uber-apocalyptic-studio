@@ -224,8 +224,7 @@ textarea:focus{
 }
 /* Branding Core */
 div#Wrapper{
-	position:static;
-	background:none;
+	background:none!important;
 }
 div#HeaderWrapper{
 	background:none;
@@ -314,6 +313,7 @@ div#GuestLinks{
 #PageTitleWrapper{
 	background:none;
 	padding:0;
+	border:none;
 }
 #PageTitleWrapper a{
 	display:none;
