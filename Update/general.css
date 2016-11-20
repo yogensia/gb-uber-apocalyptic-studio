@@ -1,64 +1,1 @@
-/* GENERAL
------------------------------------------------------------------------------ */
-/* Main Structure */
-body{
-	background:#161616 url(images/apobanner.jpg) no-repeat center -66px;
-}
-#Wrapper{
-	background:none;
-	box-shadow:none;
-}
-/* HEADER
------------------------------------------------------------------------------ */
-#HeaderWrapper{
-	background:none;
-	margin-bottom:290px;
-}
-#HeaderWrapper header > div #HomeLink{
-	background:url(images/apogblogo.png) center center no-repeat;
-	height:35px;
-	width:60px;
-	display:inline-block;
-	border:none;
-	box-shadow:none;
-}
-#HeaderWrapper header > div #HomeLink img,#HeaderWrapper header > div #HomeLink small{
-	display:none;
-}
-#HeaderWrapper.Fixed{
-	box-shadow:none;
-	border:none;
-	background:rgba(0,0,0,.2);
-	width:100%;
-	left:0
-}
-#HeaderWrapper.Fixed header{
-	margin:auto;
-	width:1000px;
-}
-/* Stamps */
-#PostsListModule fieldset#Stamps{
-	padding:0;
-}
-#PostsListModule ul.PostStamps{
-	margin:18px 0 10px;
-	padding:0;
-}
-#PostsListModule div.FullStampsDisplay li.Stamp div,
-#PostsListModule .Modal div.StampsForm label{
-	background:rgba(0,0,0,.25);
-	margin:0 5px 5px 0;
-	padding:5px 10px 5px 5px;
-}
-#PostsListModule .Modal div.StampsForm label:hover{
-	background:#5e2b1a;
-}
-#PostsListModule div.FullStampsDisplay li.Stamp div,
-#PostsListModule .Modal div.StampsForm label.Checked{
-	background:#2c2d32;
-	border-color:transparent;
-}
-#PostsListModule div.FullStampsDisplay li.Stamp div,
-#PostsListModule .Modal div.StampsForm label span{
-	font-size:12px;
-}
+/* GENERAL----------------------------------------------------------------------------- *//* Main Structure */body{	background:#161616 url(images/apobanner.jpg) no-repeat center -66px;}#Wrapper{	background:none;	box-shadow:none;}/* HEADER----------------------------------------------------------------------------- */#HeaderWrapper{	background:none;	margin-bottom:290px;}#HeaderWrapper header > div #HomeLink{	background:url(images/apogblogo.png) center center no-repeat;	height:35px;	width:60px;	display:inline-block;	border:none;	box-shadow:none;}span.IconSheet.Logo {	display:none;}#HeaderWrapper.Fixed{	box-shadow:none;	border:none;	background:rgba(0,0,0,.2);	width:100%;	left:0}#HeaderWrapper.Fixed header{	margin:auto;	width:1000px;}/* NAVIGATION----------------------------------------------------------------------------- */#PublicNavigator .NavigatorTabs {    box-shadow: none;    background: none;    margin-top: 7px;}#MemberNavigator {    float: right;    margin-top: -40px;}/* Stamps */#PostsListModule fieldset#Stamps{	padding:0;}#PostsListModule ul.PostStamps{	margin:18px 0 10px;	padding:0;}#PostsListModule div.FullStampsDisplay li.Stamp div,#PostsListModule .Modal div.StampsForm label{	background:rgba(0,0,0,.25);	margin:0 5px 5px 0;	padding:5px 10px 5px 5px;}#PostsListModule .Modal div.StampsForm label:hover{	background:#5e2b1a;}#PostsListModule div.FullStampsDisplay li.Stamp div,#PostsListModule .Modal div.StampsForm label.Checked{	background:#2c2d32;	border-color:transparent;}#PostsListModule div.FullStampsDisplay li.Stamp div,#PostsListModule .Modal div.StampsForm label span{	font-size:12px;}/* FOOTER----------------------------------------------------------------------------- */div#FooterWrapper{	display:inline-block;	margin-top:30px;	width:1000px;}div#FooterWrapper #FooterLinks{	background:none;	border:none;}
