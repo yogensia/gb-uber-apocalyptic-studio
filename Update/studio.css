@@ -18,23 +18,31 @@ nav#DropdownMenuSubNavigator {
 	     -o-transition:all .1s ease-in-out;
 	        transition:all .1s ease-in-out;
 }
-#DropdownMenuSubNavigator .sf-menu > li:hover {
-	background:#a33c1a;
+#DropdownMenuSubNavigator .sf-menu > li:hover{
+	background:#a33c1a
 }
-nav#DropdownMenuSubNavigator span:first-of-type {
+nav#DropdownMenuSubNavigator span:first-of-type{
 	display:none
 }
-nav#DropdownMenuSubNavigator div {
+nav#DropdownMenuSubNavigator div{
 	padding-top:1px
 }
 .sf-menu li:hover ul, .sf-menu li.sfHover ul{
 	top:22px
 }
-#DropdownMenuSubNavigator .sf-menu > li ul > li > a:hover {
-    color:#e76526;
+#DropdownMenuSubNavigator .sf-menu > li ul > li > a:hover{
+	color:#e76526
 }
-#Studio_Profile #PageTitleWrapper {
-	display: none;
+#Studio_Profile #PageTitleWrapper{
+	display:none
+}
+.Studio .PageNavigation:nth-child(1){
+	display:none
+}
+.Studio .PageNavigation:nth-child(3){
+	padding:0;
+	height:70px;
+	margin-top:-30px
 }
 /* Games Developed */
 #DevelopmentModule .GamesDeveloped li{
