@@ -3,7 +3,35 @@
 nav#DropdownMenuSubNavigator {
 	background:none;
 	position:absolute;
-	bottom:-10px;
+	bottom:0;
+}
+#DropdownMenuSubNavigator .sf-menu > li{
+	background:#1e1f21;
+	border:none;
+	border-radius:3px 3px 0 0;
+	box-shadow:1px 1px 5px rgba(0,0,0,.35);
+	color: #e2e2e2;
+	margin:0 2px;
+	text-transform:uppercase;
+	-webkit-transition:all .1s ease-in-out;
+	   -moz-transition:all .1s ease-in-out;
+	     -o-transition:all .1s ease-in-out;
+	        transition:all .1s ease-in-out;
+}
+#DropdownMenuSubNavigator .sf-menu > li:hover {
+	background:#a33c1a;
+}
+nav#DropdownMenuSubNavigator span:first-of-type {
+	display:none
+}
+nav#DropdownMenuSubNavigator div {
+	padding-top:1px
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul{
+	top:22px
+}
+#DropdownMenuSubNavigator .sf-menu > li ul > li > a:hover {
+    color:#e76526;
 }
 #Studio_Profile #PageTitleWrapper {
 	display: none;
