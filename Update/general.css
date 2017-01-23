@@ -69,9 +69,8 @@ span.IconSheet.Logo {
 	background:#5e2b1a;
 }
 #PostsListModule div.FullStampsDisplay li.Stamp div,
-#PostsListModule .Modal div.StampsForm label.Checked{
+#PostsListModule .Modal div.StampsForm label.Selected{
 	background:#2c2d32;
-	border-color:transparent;
 }
 #PostsListModule div.FullStampsDisplay li.Stamp div,
 #PostsListModule .Modal div.StampsForm label span{
