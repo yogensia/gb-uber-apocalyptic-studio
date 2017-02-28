@@ -1,0 +1,89 @@
+/* GENERAL
+----------------------------------------------------------------------------- */
+/* Main Structure */
+body{
+	background:#161616 url(images/apobanner.jpg) no-repeat center -66px;
+}
+#Wrapper{
+	background:none;
+	box-shadow:none;
+}
+/* HEADER
+----------------------------------------------------------------------------- */
+#HeaderWrapper{
+	background:none;
+	height:290px;
+}
+#HeaderWrapper header > div #HomeLink{
+	background:url(images/apogblogo.png) center center no-repeat;
+	height:35px;
+	width:60px;
+	display:inline-block;
+	border:none;
+	box-shadow:none;
+}
+span.IconSheet.Logo {
+	display:none;
+}
+#HeaderWrapper.Fixed{
+	background:rgb(30, 31, 33);
+	border:none;
+	border-bottom:2px solid #a33c1a;
+	box-shadow:0px 4px 6px rgba(17, 17, 17, 0.46);
+	left:0;
+	width:100%;
+}
+#HeaderWrapper.Fixed header{
+	margin:auto;
+	width:1000px;
+}
+/* NAVIGATION
+----------------------------------------------------------------------------- */
+#PublicNavigator .NavigatorTabs {
+    box-shadow: none;
+    background: none;
+    margin-top: 7px;
+}
+#MemberNavigator {
+    float: right;
+    margin-top: -40px;
+}
+#MemberNavigator .NavigatorTabs > ul > li {
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.9), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+/* Stamps */
+#PostsListModule fieldset#Stamps{
+	padding:0;
+}
+#PostsListModule ul.PostStamps{
+	margin:18px 0 10px;
+	padding:0;
+}
+#PostsListModule div.FullStampsDisplay li.Stamp div,
+#PostsListModule .Modal div.StampsForm label{
+	background:rgba(0,0,0,.25);
+	margin:0 5px 5px 0;
+	padding:5px 10px 5px 5px;
+}
+#PostsListModule .Modal div.StampsForm label:hover{
+	background:#5e2b1a;
+}
+#PostsListModule div.FullStampsDisplay li.Stamp div,
+#PostsListModule .Modal div.StampsForm label.Selected{
+	background:#2c2d32;
+}
+#PostsListModule div.FullStampsDisplay li.Stamp div,
+#PostsListModule .Modal div.StampsForm label span{
+	font-size:12px;
+}
+/* FOOTER
+----------------------------------------------------------------------------- */
+div#FooterWrapper{
+	display:inline-block;
+	margin-top:30px;
+	width:1000px;
+}
+div#FooterWrapper #FooterLinks{
+	background:none;
+	border:none;
+}

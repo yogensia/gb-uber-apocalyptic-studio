@@ -1,6 +1,6 @@
 # Apocalyptic Studio's GameBanana Uber
 
-Apocalyptic Studio's UberStyle for GameBanana
+Apocalyptic Studio's [UberStyle](https://yogensia.github.io/gb-uber-apocalyptic-studio/uber.css) for GameBanana
 [http://gamebanana.com/studios/21599](http://gamebanana.com/studios/21599)
 
 Created by Yogensia and Rafaël De Jongh

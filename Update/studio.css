@@ -1,0 +1,160 @@
+/* STUDIO PROFILE MODULES
+----------------------------------------------------------------------------- */
+nav#DropdownMenuSubNavigator {
+	background:none;
+	position:absolute;
+	bottom:0;
+}
+#DropdownMenuSubNavigator .sf-menu > li{
+	background:#1e1f21;
+	border:none;
+	border-radius:3px 3px 0 0;
+	box-shadow:1px 1px 5px rgba(0,0,0,.35);
+	color: #e2e2e2;
+	margin:0 2px;
+	text-transform:uppercase;
+	-webkit-transition:all .1s ease-in-out;
+	   -moz-transition:all .1s ease-in-out;
+	     -o-transition:all .1s ease-in-out;
+	        transition:all .1s ease-in-out;
+}
+#DropdownMenuSubNavigator .sf-menu > li:hover{
+	background:#a33c1a
+}
+nav#DropdownMenuSubNavigator span:first-of-type{
+	display:none
+}
+nav#DropdownMenuSubNavigator div{
+	padding-top:1px
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul{
+	top:22px
+}
+#DropdownMenuSubNavigator .sf-menu > li ul > li > a:hover{
+	color:#e76526
+}
+#Studio_Profile #PageTitleWrapper{
+	display:none
+}
+.Studio .PageNavigation:nth-child(1){
+	display:none
+}
+.Studio .PageNavigation:nth-child(3){
+	padding:0;
+	height:70px;
+	margin-top:-30px
+}
+/* Games Developed */
+#DevelopmentModule .GamesDeveloped li{
+	margin:5px 14px;
+}
+/* Ranks */
+#RankModule div.Content{
+	padding:20px 0 0;
+}
+#RankModule div.Content table{
+	 margin-bottom:0;
+}
+#RankModule div.Content table tr:last-child{
+	border:none;
+}
+#ForumPreviewListModule .Content br,
+#ProjectPreviewListModule .Content br{
+	display:none;
+}
+/* Forums and Projects */
+div.ForumPreviewListModule a.Name,
+div.ProjectPreviewListModule a.Name{
+	font:14px 'trebuchet ms','comic sans','cursive' !important;
+	color:#fceeb7 !important;
+	text-shadow:none !important;
+}
+div.ForumPreviewListModule a.Name:hover,
+div.ProjectPreviewListModule a.Name:hover{
+	color:#e76526 !important;
+}
+/* STUDIO PROFILE STYLES
+----------------------------------------------------------------------------- */
+/* Structure */
+#Studio_Profile #PageTitle,
+#Studio_Profile #TitleBreadcrumb{
+	display:none;
+}
+#ContentSubmissions,
+#ContentExtras{
+	display:block;
+}
+#ContentSubmissions{
+	padding:0 0 20px;
+}
+#ContentExtras{
+	padding:0;
+	width:1000px;
+}
+.OneColumn{
+	width:100%;
+}
+.OneHalfColumn{
+	float:left;
+	width:490px;
+	margin-right:19px;
+	padding-top:0;
+}
+.OneHalfColumn:last-child{
+	margin-right:0;
+	padding:0;
+}
+#ContentSubmissions .ContentColumn{
+	padding:0;
+}
+#ContentSubmissions div.GenericPreviewListModule{
+	margin-bottom:0;
+}
+#ContentSubmissions div.GenericPreviewListModule li{
+	display:inline-block;
+	text-align:center;
+	border-bottom:none;
+	padding:25px 0 25px;
+}
+#ContentSubmissions div.GenericPreviewListModule li br{
+	display:none;
+}
+#ContentSubmissions div.GenericPreviewListModule li:last-child{
+	display:none;
+}
+#ContentSubmissions div.GenericPreviewListModule div.Preview{
+	display:block;
+	height:135px;
+	overflow:hidden;
+	margin:0;
+	padding:0 8px;
+	width:auto;
+}
+#ContentSubmissions div.GenericPreviewListModule div.Preview a{
+	height:123px;
+	overflow:hidden;
+	box-shadow:0 3px 3px rgba(0,0,0,0.25);
+	position:relative;
+	width:220px;
+}
+#ContentSubmissions img.PreviewImage{
+	box-shadow:none;
+	transform:translate(-50%,-50%);
+	position:absolute;
+	top:50%;
+	width:220px;
+	left:50%;
+}
+#ContentSubmissions div.GenericPreviewListModule a.Name{
+	color:#fceeb7 !important;
+	display:block;
+	font:14px 'trebuchet ms','comic sans','cursive' !important;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-shadow:none !important;
+	white-space:nowrap;
+	width:235px;
+	max-width:none;
+}#ContentSubmissions div.GenericPreviewListModule a.Name:hover{
+	color:#e76526 !important;
+}
