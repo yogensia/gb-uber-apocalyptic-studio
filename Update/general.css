@@ -7,12 +7,29 @@ body{
 #Wrapper{
 	background:none;
 	box-shadow:none;
+	padding-top:310px;
 }
 /* HEADER
 ----------------------------------------------------------------------------- */
 #HeaderWrapper{
-	background:none;
-	height:290px;
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	background: #1e1f21;
+	border-bottom:3px solid #a33c1a;
+	box-shadow:1px 1px 5px rgba(0,0,0,.35);
+	z-index: 1000;
+}
+#HeaderWrapper > div {
+	display:none!important; /* BEGONE DEMON :C */
+}
+#HeaderWrapper > header,
+#HeaderWrapper > header.is_stuck{
+	display:block;
+	width:1000px;
+	margin:0 auto;
+	position:static!important;
 }
 #HeaderWrapper header > div #HomeLink{
 	background:url(images/apogblogo.png) center center no-repeat;
