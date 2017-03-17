@@ -3,14 +3,23 @@
 nav#DropdownMenuSubNavigator {
 	background:none;
 	position:absolute;
-	bottom:0;
+	bottom:57px;
+	width:700px;
+	text-align:center;
+	z-index:100;
 }
+#Studio_Profile nav#DropdownMenuSubNavigator {
+	bottom:2px;
+	width:auto;
+}
+#DropdownMenuSubNavigator .sf-menu .ActiveEntry,
 #DropdownMenuSubNavigator .sf-menu > li{
 	background:#1e1f21;
 	border:none;
 	border-radius:3px 3px 0 0;
-	box-shadow:1px 1px 5px rgba(0,0,0,.35);
-	color: #e2e2e2;
+	box-shadow:-1px -1px 5px rgba(0,0,0,.35);
+	padding:4px 2px;
+	color:#e2e2e2;
 	margin:0 2px;
 	text-transform:uppercase;
 	-webkit-transition:all .1s ease-in-out;
@@ -18,17 +27,17 @@ nav#DropdownMenuSubNavigator {
 	     -o-transition:all .1s ease-in-out;
 	        transition:all .1s ease-in-out;
 }
+#DropdownMenuSubNavigator .sf-menu li.TitleOnly{
+	padding: 8px 8px;
+}
 #DropdownMenuSubNavigator .sf-menu > li:hover{
 	background:#a33c1a
 }
-nav#DropdownMenuSubNavigator span:first-of-type{
+nav#DropdownMenuSubNavigator div{
 	display:none
 }
-nav#DropdownMenuSubNavigator div{
-	padding-top:1px
-}
 .sf-menu li:hover ul, .sf-menu li.sfHover ul{
-	top:22px
+	top:32px
 }
 #DropdownMenuSubNavigator .sf-menu > li ul > li > a:hover{
 	color:#e76526
