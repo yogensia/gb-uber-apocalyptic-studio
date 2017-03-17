@@ -17,7 +17,7 @@ nav#DropdownMenuSubNavigator {
 	background:#1e1f21;
 	border:none;
 	border-radius:3px 3px 0 0;
-	box-shadow:-1px -1px 5px rgba(0,0,0,.35);
+	box-shadow:-1px -2px 5px rgba(0,0,0,.35);
 	padding:4px 2px;
 	color:#e2e2e2;
 	margin:0 2px;
@@ -30,6 +30,8 @@ nav#DropdownMenuSubNavigator {
 #DropdownMenuSubNavigator .sf-menu li.TitleOnly{
 	padding: 8px 8px;
 }
+#DropdownMenuSubNavigator .sf-menu .ActiveEntry:not(:first-child),
+#DropdownMenuSubNavigator .sf-menu .ActiveEntry:hover,
 #DropdownMenuSubNavigator .sf-menu > li:hover{
 	background:#a33c1a
 }
