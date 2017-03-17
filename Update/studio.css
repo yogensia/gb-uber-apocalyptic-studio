@@ -137,14 +137,6 @@ div.ProjectPreviewListModule a.Name:hover{
 	position:relative;
 	width:220px;
 }
-#ContentSubmissions img.PreviewImage{
-	box-shadow:none;
-	transform:translate(-50%,-50%);
-	position:absolute;
-	top:50%;
-	width:220px;
-	left:50%;
-}
 #ContentSubmissions div.GenericPreviewListModule a.Name{
 	color:#fceeb7 !important;
 	display:block;
