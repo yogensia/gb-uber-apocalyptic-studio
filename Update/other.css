@@ -52,9 +52,14 @@ button:active,.ButtonLike:active{
 .ContentEditableEditor .InputWrapper .Editor,
 .ContentEditableEditor .InputWrapper .Editor .ViewModes .Wysiwyg .RichText,
 .ContentEditableEditor .InputWrapper .Editor .ViewModes .Source textarea {
-    width: 100%;
-    box-sizing: border-box;
-    min-height: 450px;
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 450px;
+}
+/* IMAGE GALLERIES
+----------------------------------------------------------------------------- */
+.lg-sub-html {
+	background: rgba(0,0,0,0.45);
 }
 /* LINKS
 ----------------------------------------------------------------------------- */
