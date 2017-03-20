@@ -50,7 +50,8 @@ button:active,.ButtonLike:active{
 }
 /* Edit submission form */
 .ContentEditableEditor .InputWrapper .Editor,
-.ContentEditableEditor .InputWrapper .Editor .ViewModes .Wysiwyg .RichText {
+.ContentEditableEditor .InputWrapper .Editor .ViewModes .Wysiwyg .RichText,
+.ContentEditableEditor .InputWrapper .Editor .ViewModes .Source textarea {
     width: 100%;
     box-sizing: border-box;
     min-height: 450px;
