@@ -53,6 +53,7 @@ button:active,.ButtonLike:active{
 .ContentEditableEditor .InputWrapper .Editor .ViewModes .Wysiwyg .RichText {
     width: 100%;
     box-sizing: border-box;
+    min-height: 450px;
 }
 /* LINKS
 ----------------------------------------------------------------------------- */
