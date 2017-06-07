@@ -1,1 +1,260 @@
-/* SUBMISSION PAGE----------------------------------------------------------------------------- *//*Submission Width*/.ContentColumn.FluidColumn {	width: 700px !important;	display: block;	float: left;}.ContentColumn.StaticColumn {	width: 275px !important;	display:block;	float: left;	margin-left: 20px;}.ContentColumn.StaticColumn:not(:last-child) {	margin-top: -56px;}#MainContentHeader{	position:relative;}#PageTitleWrapper{	background:none;	border:none;}#PageTitleWrapper{	background:#a33c1a;	display:inline-block;	margin:0;	outline:5px solid #a33c1a;	padding:5px 30px 0 30px;	position:relative;	text-align:center;	width:650px;	z-index:10;}#PageTitleWrapper h1{	font-family:"Roboto Condensed", Verdana, Geneva, sans-serif;	font-size:24px;	font-weight:bold;	letter-spacing:0.1em;	position:relative;	text-shadow:0 1px 0 rgba(0,0,0,.3);	text-transform:uppercase;	text-overflow:ellipsis;	white-space:nowrap;	overflow:hidden;}div#TitleBreadcrumb{	background:#a33c1a;	margin:0;	padding:0 5px 5px;	text-align:center;}div#TitleBreadcrumb a:hover{	color:#fffbed;}/* Submission Navigation Buttons */.SubnavigatorIcon + div{	display:none;}nav#BasicSubNavigator{	background:none;	border-bottom:0;	display:inline-block;	text-align:center;	left:0;	margin:0;	padding:0;	top: -37px;	width: 700px;	position:absolute;	-webkit-transition:all .1s ease-in-out;	   -moz-transition:all .1s ease-in-out;	     -o-transition:all .1s ease-in-out;	        transition:all .1s ease-in-out;}.IconSheet.SubnavigatorIcon.ReportIcon {	background-position: -463px -32px;}nav#BasicSubNavigator ul{    overflow-x:initial;}nav#BasicSubNavigator li{	background:none;	border:none;	margin-left:3px;	position:relative;	box-shadow:none;}#BasicSubNavigator li.ActiveEntry{	padding-top:0;	background:none;}#BasicSubNavigator li.ActiveEntry a{	background:#a33c1a;}nav#BasicSubNavigator li a{	background:#1e1f21;	border:none;	border-radius:3px 3px 0 0;	box-shadow:1px 1px 5px rgba(0, 0, 0, 0.35);	color:#e2e2e2;	font-size:11px;	padding:8px;	text-transform:uppercase;	-webkit-transition:all .1s ease-in-out;	   -moz-transition:all .1s ease-in-out;	     -o-transition:all .1s ease-in-out;	        transition:all .1s ease-in-out;}nav#BasicSubNavigator li a:hover,nav#BasicSubNavigator ul .ActiveEntry a:hover{	background:#a33c1a;}nav#BasicSubNavigator li a span:not(.IconSheet){	background:#161616;	box-shadow:0px 1px 4px rgba(0,0,0,.3);	display:none;	left:-36px;	padding:10px;	position:absolute;	text-align:center;	top:-45px;	width:100px;	box-sizing:border-box;}/*nav#BasicSubNavigator li a span:not(.IconSheet):before{	color:#161616;	content:" ";	border-left:8px solid transparent!important;	border-right:8px solid transparent!important;	border-top:8px solid;	bottom:-7px;	display:block;	height:0;	left:0;	margin:0 auto;	position:absolute;	right:0;	width:0;}nav#BasicSubNavigator li a:hover span:not(.IconSheet){	display:block;}*//* Common Module Styles */.Module div.Content{	background:#1e1f21;    margin:0;	padding:20px;}#ColumnGrid > .StaticColumn .Content{	padding:18px 15px 15px;}div.Module > h3,#ContentMessages h3{	background:#a33c1a;	border:none;	box-shadow:0px 2px 6px #111;	font-family:"Roboto Condensed", Verdana, Geneva, sans-serif;	font-size:16px;	font-weight:bold;	letter-spacing:0.1em;	outline:3px solid #a33c1a;	padding:7px;	position:relative;	text-align:center;	text-shadow:0 1px 0 rgba(0,0,0,0.3);	text-transform:uppercase;	z-index:1;}div.Module > h3 a{	color:#fff;}div.Module > h3 a:hover{	color:#ebc17b;}/* Download Module */#DownloadModule .Content .DownloadMethod{	background: #18191b;	border-radius: 3px;}#DownloadModule .Content .ModboyInstallWrapper > a:hover{	color: #a5daff;}#DownloadModule .Content .ManualDownloadWrapper > a:hover{	color:#a0ffa0;}/* Screenshots Module */#ScreenshotsModule .Content {	padding: 15px;}/* Narrow Column Modules */.Module p.Description{	background:#28292b;	color:#999;	font-size:12px;	margin:0;	padding:10px;	text-align:center;}#AuthorsAndRolesModule .AuthorsAndRoles img.Upic{	max-height:20px !important;}#StudioModule img{	display:block;	margin:auto;	text-align:center;	width:auto;}#WinningContestInfoModule div.Content{	background:#1e1f21 url(images/contestbg.jpg) center top no-repeat;}#WinningContestInfoModule article h2{	border-bottom:none;	font-family:"Roboto Condensed", Verdana, Geneva, sans-serif;	font-weight:bold;	letter-spacing:0.1em;	margin:5px auto 18px;	text-transform:uppercase;}#WinningContestInfoModule article p{	line-height:18px;}#WinningContestInfoModule article a{	display:block;	margin-top:5px;}#WinningContestInfoModule article small span{	display:block;	margin-bottom:5px;}#WinningContestInfoModule article .IconSheet,#WinningContestInfoModule article div{	display: block;	text-align: center;}#WinningContestInfoModule article strong{	margin-top: 10px;}#WinningContestInfoModule article .IconSheet{	display: inline-block;}#WinningContestInfoModule article .Judgement{	margin: 20px auto 0;	width: 85%;}#ShareToolsModule dl,#ShareToolsModule p,#SocialMediaTools{	text-align:center;}
+/* SUBMISSION PAGE
+----------------------------------------------------------------------------- */
+/*Submission Width*/
+.ContentColumn.FluidColumn {
+	width: 700px !important;
+	display: block;
+	float: left;
+}
+.ContentColumn.StaticColumn {
+	width: 275px !important;
+	display:block;
+	float: left;
+	margin-left: 20px;
+}
+.ContentColumn.StaticColumn:not(:last-child) {
+	margin-top: -56px;
+}
+#MainContentHeader{
+	position:relative;
+}
+#PageTitleWrapper{
+	background:none;
+	border:none;
+}
+#PageTitleWrapper{
+	background:#a33c1a;
+	display:inline-block;
+	margin:0;
+	outline:5px solid #a33c1a;
+	padding:5px 30px 0 30px;
+	position:relative;
+	text-align:center;
+	width:650px;
+	z-index:10;
+}
+#PageTitleWrapper h1{
+	font-family:"Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	position:relative;
+	text-shadow:0 1px 0 rgba(0,0,0,.3);
+	text-transform:uppercase;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+div#TitleBreadcrumb{
+	background:#a33c1a;
+	margin:0;
+	padding:0 5px 5px;
+	text-align:center;
+}
+div#TitleBreadcrumb a:hover{
+	color:#fffbed;
+}
+/* Submission Navigation Buttons */
+.SubnavigatorIcon + div{
+	display:none;
+}
+nav#BasicSubNavigator{
+	background:none;
+	border-bottom:0;
+	display:inline-block;
+	text-align:center;
+	left:0;
+	margin:0;
+	padding:0;
+	top: -37px;
+	width: 700px;
+	position:absolute;
+	-webkit-transition:all .1s ease-in-out;
+	   -moz-transition:all .1s ease-in-out;
+	     -o-transition:all .1s ease-in-out;
+	        transition:all .1s ease-in-out;
+}
+.IconSheet.SubnavigatorIcon.ReportIcon {
+	background-position: -463px -32px;
+}
+nav#BasicSubNavigator ul{
+    overflow-x:initial;
+}
+nav#BasicSubNavigator li{
+	background:none;
+	border:none;
+	margin-left:3px;
+	position:relative;
+	box-shadow:none;
+}
+#BasicSubNavigator li.ActiveEntry{
+	padding-top:0;
+	background:none;
+}
+#BasicSubNavigator li.ActiveEntry a{
+	background:#a33c1a;
+}
+nav#BasicSubNavigator li a{
+	background:#1e1f21;
+	border:none;
+	border-radius:3px 3px 0 0;
+	box-shadow:1px 1px 5px rgba(0, 0, 0, 0.35);
+	color:#e2e2e2;
+	font-size:11px;
+	padding:8px;
+	text-transform:uppercase;
+	-webkit-transition:all .1s ease-in-out;
+	   -moz-transition:all .1s ease-in-out;
+	     -o-transition:all .1s ease-in-out;
+	        transition:all .1s ease-in-out;
+}
+nav#BasicSubNavigator li a:hover,
+nav#BasicSubNavigator ul .ActiveEntry a:hover{
+	background:#a33c1a;
+}
+nav#BasicSubNavigator li a span:not(.IconSheet){
+	background:#161616;
+	box-shadow:0px 1px 4px rgba(0,0,0,.3);
+	display:none;
+	left:-36px;
+	padding:10px;
+	position:absolute;
+	text-align:center;
+	top:-45px;
+	width:100px;
+	box-sizing:border-box;
+}
+/*nav#BasicSubNavigator li a span:not(.IconSheet):before{
+	color:#161616;
+	content:" ";
+	border-left:8px solid transparent!important;
+	border-right:8px solid transparent!important;
+	border-top:8px solid;
+	bottom:-7px;
+	display:block;
+	height:0;
+	left:0;
+	margin:0 auto;
+	position:absolute;
+	right:0;
+	width:0;
+}
+nav#BasicSubNavigator li a:hover span:not(.IconSheet){
+	display:block;
+}*/
+/* Common Module Styles */
+.Module div.Content{
+	background:#1e1f21;
+    margin:0;
+	padding:20px;
+}
+#ColumnGrid > .StaticColumn .Content{
+	padding:18px 15px 15px;
+}
+div.Module > h3,
+#ContentMessages h3{
+	background:#a33c1a;
+	border:none;
+	box-shadow:0px 2px 6px #111;
+	font-family:"Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	outline:3px solid #a33c1a;
+	padding:7px;
+	position:relative;
+	text-align:center;
+	text-shadow:0 1px 0 rgba(0,0,0,0.3);
+	text-transform:uppercase;
+	z-index:1;
+}
+div.Module > h3 a{
+	color:#fff;
+}
+div.Module > h3 a:hover{
+	color:#ebc17b;
+}
+/* Download Module */
+#DownloadModule .Content .DownloadMethod{
+	background: #18191b;
+	border-radius: 3px;
+}
+#DownloadModule .Content .ModboyInstallWrapper > a:hover{
+	color: #a5daff;
+}
+#DownloadModule .Content .ManualDownloadWrapper > a:hover{
+	color:#a0ffa0;
+}
+/* Screenshots Module */
+#ScreenshotsModule .Content {
+	padding: 15px;
+}
+/* Narrow Column Modules */
+.Module p.Description{
+	background:#28292b;
+	color:#999;
+	font-size:12px;
+	margin:0;
+	padding:10px;
+	text-align:center;
+}
+#AuthorsAndRolesModule .AuthorsAndRoles img.Upic{
+	max-height:20px !important;
+}
+#StudioModule img{
+	display:block;
+	margin:auto;
+	text-align:center;
+	width:auto;
+}
+#WinningContestInfoModule div.Content{
+	background:#1e1f21 url(images/contestbg.jpg) center top no-repeat;
+}
+#WinningContestInfoModule article h2{
+	border-bottom:none;
+	font-family:"Roboto Condensed", Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	margin:5px auto 18px;
+	text-transform:uppercase;
+}
+#WinningContestInfoModule article p{
+	line-height:18px;
+}
+#WinningContestInfoModule article a{
+	display:block;
+	margin-top:5px;
+}
+#WinningContestInfoModule article small span{
+	display:block;
+	margin-bottom:5px;
+}
+#WinningContestInfoModule article .IconSheet,
+#WinningContestInfoModule article div{
+	display: block;
+	text-align: center;
+}
+
+#WinningContestInfoModule article strong{
+	margin-top: 10px;
+}
+
+#WinningContestInfoModule article .IconSheet{
+	display: inline-block;
+}
+
+#WinningContestInfoModule article .Judgement{
+	margin: 20px auto 0;
+	width: 85%;
+}
+#ShareToolsModule dl,
+#ShareToolsModule p,
+#SocialMediaTools{
+	text-align:center;
+}
+.TableOfContents {
+  background: transparent;
+}
+.TableOfContents ul li {
+  border-bottom: transparent;
+}
