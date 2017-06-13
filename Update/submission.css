@@ -253,8 +253,8 @@ div.Module > h3 a:hover{
 	text-align:center;
 }
 .TableOfContents {
-  background: transparent;
+  background: transparent !important;
 }
 .TableOfContents ul li {
-  border-bottom: transparent;
+  border-bottom: transparent !important;
 }
