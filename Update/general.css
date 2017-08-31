@@ -60,33 +60,22 @@ span.IconSheet.Logo {
 	width:1000px;
 }
 #HeaderWrapper aside {
-    position: fixed;
-    top: 18px;
-    margin-left: 0px;
-    text-align: right;
-    z-index: 9999999999999999999;
-}
-#HeaderWrapper aside #HeaderToggle {
-	display: none;
-}
-#HeaderWrapper aside,
-#HeaderWrapper aside #MemberNavigatorTabs {
-	
-}
-#HeaderWrapper aside #MemberNavigatorTabs {
-	margin-top: 37px;
-	margin-left: 15px;
+	position:fixed;
+	top:13px;
+	margin-left:0px;
+	text-align:right;
+	z-index:9999999999999999999;
 }
 /* NAVIGATION
 ----------------------------------------------------------------------------- */
 #PublicNavigator .NavigatorTabs {
-    box-shadow: none;
-    background: none;
-    margin-top: 7px;
+	box-shadow:none;
+	background:none;
+	margin-top:7px;
 }
 #MemberNavigator {
-    float: right;
-    margin-top: -40px;
+	float: right;
+	margin-top: -40px;
 }
 #MemberNavigator .NavigatorTabs > ul > li {
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.9), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
