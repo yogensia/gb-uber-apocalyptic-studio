@@ -3,10 +3,11 @@
 nav#DropdownMenuSubNavigator {
 	background:none;
 	position:absolute;
-	bottom:57px;
+	bottom: 105px;
 	width:700px;
 	text-align:center;
-	z-index:100;
+	z-index: 9;
+	border: none;
 }
 #Studio_Profile nav#DropdownMenuSubNavigator {
 	bottom:2px;
