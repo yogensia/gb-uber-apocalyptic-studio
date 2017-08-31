@@ -31,6 +31,11 @@ body{
 	margin:0 auto;
 	position:static!important;
 }
+#HeaderWrapper header > div {
+	background: none;
+	border-bottom: none;
+	box-shadow: none;
+}
 #HeaderWrapper header > div #HomeLink{
 	background:url(images/apogblogo.png) center center no-repeat;
 	height:35px;
@@ -53,6 +58,24 @@ span.IconSheet.Logo {
 #HeaderWrapper.Fixed header{
 	margin:auto;
 	width:1000px;
+}
+#HeaderWrapper aside {
+    position: fixed;
+    top: 18px;
+    margin-left: 0px;
+    text-align: right;
+    z-index: 9999999999999999999;
+}
+#HeaderWrapper aside #HeaderToggle {
+	display: none;
+}
+#HeaderWrapper aside,
+#HeaderWrapper aside #MemberNavigatorTabs {
+	
+}
+#HeaderWrapper aside #MemberNavigatorTabs {
+	margin-top: 37px;
+	margin-left: 15px;
 }
 /* NAVIGATION
 ----------------------------------------------------------------------------- */
