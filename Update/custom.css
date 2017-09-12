@@ -18,9 +18,5 @@
 	display:none!important;
 }
 /* Advertisements */
-div#AtfLeaderboard,div#BtfLeaderboard{
-	width:700px;
-}
-#AtfLeaderboardModule, #BtfLeaderboardModule, #AtfSquareBannerModule, #BtfSquareBannerModule{
-	background:#1e1f21;
-}
+/*div#AtfLeaderboard,div#BtfLeaderboard{width:700px}*/
+#AtfLeaderboardModule, #BtfLeaderboardModule, #AtfSquareBannerModule, #BtfSquareBannerModule{background:#1e1f21}
