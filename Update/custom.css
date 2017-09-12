@@ -18,5 +18,5 @@
 	display:none!important;
 }
 /* Advertisements */
-/*div#AtfLeaderboard,div#BtfLeaderboard{width:700px}*/
+div#AtfLeaderboard:not(#Studio_Profile),div#BtfLeaderboard:not(#Studio_Profile){width:700px}
 #AtfLeaderboardModule, #BtfLeaderboardModule, #AtfSquareBannerModule, #BtfSquareBannerModule{background:#1e1f21}
