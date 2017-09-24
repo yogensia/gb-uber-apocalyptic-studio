@@ -94,7 +94,7 @@ div.ProjectPreviewListModule a.Name:hover{
 }
 #ContentSubmissions,
 #ContentExtras{
-	display:block;
+	display:block!important
 }
 #ContentSubmissions{
 	padding:0 0 20px;
