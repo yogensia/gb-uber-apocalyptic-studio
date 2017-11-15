@@ -9,6 +9,9 @@ nav#DropdownMenuSubNavigator {
 	z-index: 11;
 	border: none;
 }
+#DropdownMenuSubNavigator > ul {
+	box-shadow: 0;
+}
 #Studio_Profile nav#DropdownMenuSubNavigator {
 	bottom:-15px;
 	width:auto;
