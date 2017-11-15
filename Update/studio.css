@@ -10,7 +10,7 @@ nav#DropdownMenuSubNavigator {
 	border: none;
 }
 #Studio_Profile nav#DropdownMenuSubNavigator {
-	bottom:2px;
+	bottom:-15px;
 	width:auto;
 }
 #DropdownMenuSubNavigator .sf-menu .ActiveEntry,
@@ -18,7 +18,7 @@ nav#DropdownMenuSubNavigator {
 	background:#1e1f21;
 	border:none;
 	border-radius:3px 3px 0 0;
-	box-shadow:-1px -2px 5px rgba(0,0,0,.35);
+	box-shadow:0;
 	padding:4px 2px;
 	color:#e2e2e2;
 	margin:0 2px;
@@ -38,6 +38,10 @@ nav#DropdownMenuSubNavigator {
 }
 nav#DropdownMenuSubNavigator div{
 	display:none
+}
+#Breadcrumb {
+	text-align: right;
+	width: auto;
 }
 .sf-menu li:hover ul, .sf-menu li.sfHover ul{
 	top:32px
