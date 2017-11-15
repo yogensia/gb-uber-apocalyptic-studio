@@ -40,8 +40,7 @@ nav#DropdownMenuSubNavigator div{
 	display:none
 }
 #Breadcrumb {
-	text-align: right;
-	width: auto;
+	display: none !important;
 }
 .sf-menu li:hover ul, .sf-menu li.sfHover ul{
 	top:32px
